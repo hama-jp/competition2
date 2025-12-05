@@ -1,0 +1,17 @@
+{
+  "experiment": "exp09_tabnet_improved",
+  "timestamp": "2025-12-05T15:07:49.190920",
+  "cv_tabnet": 0.8359953361076234,
+  "best_params": {
+    "n_d": 19,
+    "n_a": 52,
+    "n_steps": 3,
+    "gamma": 1.2072495066182998,
+    "n_independent": 1,
+    "n_shared": 3,
+    "lambda_sparse": 1.8219064707807372e-06,
+    "momentum": 0.3511715234580846,
+    "lr": 0.03679943232746663
+  },
+  "n_features": 92
+}
