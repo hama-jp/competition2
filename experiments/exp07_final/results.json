@@ -1,0 +1,59 @@
+{
+  "experiment": "exp07_final",
+  "timestamp": "2025-12-05T09:19:31.162942",
+  "cv_lgb": 0.843411968464284,
+  "cv_xgb": 0.8420582827756966,
+  "cv_cat": 0.8474526096587487,
+  "cv_final": 0.8465117782564164,
+  "weights": {
+    "lgb": 0.3,
+    "xgb": 0.3,
+    "cat": 0.4
+  },
+  "best_params_lgb": {
+    "learning_rate": 0.09276457122109245,
+    "num_leaves": 111,
+    "max_depth": 3,
+    "min_child_samples": 41,
+    "subsample": 0.4126775090838999,
+    "colsample_bytree": 0.4910286943468972,
+    "reg_alpha": 0.5363517544276609,
+    "reg_lambda": 9.847873834942789,
+    "objective": "binary",
+    "metric": "auc",
+    "boosting_type": "gbdt",
+    "verbosity": -1,
+    "random_state": 1
+  },
+  "best_params_xgb": {
+    "learning_rate": 0.010557654198243605,
+    "max_depth": 5,
+    "min_child_weight": 2,
+    "subsample": 0.42823789878654434,
+    "colsample_bytree": 0.6400167112588607,
+    "gamma": 0.7820326628699041,
+    "alpha": 0.017218006622693675,
+    "lambda": 0.0010527166617541805,
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "tree_method": "hist",
+    "early_stopping_rounds": 100,
+    "random_state": 1
+  },
+  "best_params_cat": {
+    "learning_rate": 0.07718772443488796,
+    "depth": 3,
+    "l2_leaf_reg": 0.0033458292447738312,
+    "subsample": 0.8523245279212943,
+    "min_data_in_leaf": 71,
+    "random_strength": 1.2032200146196355,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "verbose": false,
+    "allow_writing_files": false,
+    "iterations": 10000,
+    "random_seed": 1
+  },
+  "n_seeds": 10,
+  "optuna_trials": 50
+}
