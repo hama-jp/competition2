@@ -1,0 +1,57 @@
+{
+  "experiment": "exp03_optuna_enhanced",
+  "timestamp": "2025-12-05T08:25:07.557154",
+  "cv_lgb": 0.8416652772532033,
+  "cv_xgb": 0.8446340852045048,
+  "cv_cat": 0.8427597947978092,
+  "cv_final": 0.8448422136702406,
+  "weights": {
+    "lgb": 0.3,
+    "xgb": 0.3,
+    "cat": 0.4
+  },
+  "best_params_lgb": {
+    "learning_rate": 0.04269750903122274,
+    "num_leaves": 44,
+    "max_depth": 3,
+    "min_child_samples": 51,
+    "subsample": 0.9377959628965012,
+    "colsample_bytree": 0.5552929449208966,
+    "reg_alpha": 0.016979357863054302,
+    "reg_lambda": 0.0011457730904917023,
+    "objective": "binary",
+    "metric": "auc",
+    "boosting_type": "gbdt",
+    "verbosity": -1,
+    "random_state": 999
+  },
+  "best_params_xgb": {
+    "learning_rate": 0.032893904076934245,
+    "max_depth": 3,
+    "min_child_weight": 6,
+    "subsample": 0.6008902116143074,
+    "colsample_bytree": 0.5534166909324569,
+    "gamma": 0.9632998519652881,
+    "alpha": 0.1164273027758572,
+    "lambda": 2.6064786002448947,
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "tree_method": "hist",
+    "early_stopping_rounds": 100,
+    "random_state": 999
+  },
+  "best_params_cat": {
+    "learning_rate": 0.03914616373919156,
+    "depth": 4,
+    "l2_leaf_reg": 3.0973152843575096,
+    "subsample": 0.6288488956966767,
+    "min_data_in_leaf": 43,
+    "random_strength": 0.9591532507557865,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "verbose": false,
+    "allow_writing_files": false,
+    "iterations": 10000,
+    "random_seed": 999
+  }
+}
