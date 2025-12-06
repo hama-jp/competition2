@@ -1,0 +1,237 @@
+School,school_draft_rate,school_count
+Abilene Christian,1.0,3
+Air Force,0.0,1
+Akron,0.0,1
+Ala-Birmingham,1.0,2
+Alabama,0.7123287671232876,73
+Alabama A&M,0.0,1
+Alabama St.,0.0,1
+Alcorn St.,0.0,1
+Appalachian St.,0.75,8
+Arizona,0.7142857142857143,14
+Arizona St.,0.6666666666666666,24
+Arizona State,0.5,2
+Ark-Pine Bluff,1.0,1
+Arkansas,0.6666666666666666,36
+Arkansas St.,0.75,4
+Army,0.0,1
+Ashland,1.0,1
+Auburn,0.5641025641025641,39
+Azusa Pacific,0.0,1
+BYU,0.35714285714285715,14
+Ball St.,0.5,6
+Baylor,0.7407407407407407,27
+Bloomsburg,0.5,2
+Boise St.,0.6086956521739131,23
+Boston Col.,0.52,25
+Bowling Green,0.5,2
+Bucknell,0.0,1
+Buffalo,0.5,6
+Cal Poly,1.0,2
+California,0.7419354838709677,31
+California (PA),0.0,3
+Central Arkansas,0.0,3
+Central Florida,0.7142857142857143,14
+Central Michigan,0.5454545454545454,11
+Central Washington,0.0,1
+Chadron St.,1.0,1
+Charlotte,1.0,1
+Cincinnati,0.6470588235294118,17
+Citadel,1.0,2
+Clemson,0.7368421052631579,57
+Coastal Carolina,0.6,5
+Colorado,0.6666666666666666,12
+Colorado St.,0.46153846153846156,13
+Concordia (MN),1.0,1
+Connecticut,0.6666666666666666,24
+Cornell,0.5,2
+Delaware,1.0,1
+Dixie State,0.0,1
+Drake,1.0,1
+Dubuque,0.0,1
+Duke,0.38461538461538464,13
+East Carolina,0.5,14
+East Central (OK),1.0,1
+East. Illinois,1.0,1
+East. Kentucky,0.5,2
+East. Washington,0.4,5
+Elon,1.0,1
+Ferris St.,0.0,1
+Florida,0.74,50
+Florida A&M,1.0,1
+Florida Atlantic,0.6666666666666666,9
+Florida International,1.0,3
+Florida St.,0.7192982456140351,57
+Fordham,1.0,2
+Fort Hays St.,1.0,1
+Fort Valley St.,0.0,1
+Fresno St.,0.5,16
+Furman,0.0,1
+Georgia,0.7777777777777778,54
+Georgia Southern,1.0,3
+Georgia St.,0.5,2
+Georgia Tech,0.8,15
+Glenville State,0.0,1
+Grand Valley St.,0.5,2
+Harding,0.5,2
+Hartwick,0.0,1
+Harvard,0.5,2
+Hawaii,0.6,10
+Hillsdale,0.5,2
+Hobart & William Smith,1.0,1
+Houston,0.5,12
+Humboldt St.,1.0,1
+Idaho,0.6666666666666666,6
+Idaho St.,0.0,1
+Illinois,0.6111111111111112,18
+Illinois St.,0.5,2
+Indiana,0.45,20
+Indiana (PA),0.5,2
+Iowa,0.723404255319149,47
+Iowa St.,0.5,8
+Jackson St.,0.0,1
+Jacksonville St.,0.5,4
+James Madison,0.5,4
+Kansas,0.6666666666666666,9
+Kansas St.,0.47368421052631576,19
+Kent St.,0.6666666666666666,3
+Kentucky,0.5185185185185185,27
+Kutztown Pennsylvania,1.0,1
+LSU,0.6285714285714286,70
+Lehigh,1.0,1
+Liberty,0.0,2
+Lindenwood,1.0,1
+Louisiana St,0.0,1
+Louisiana Tech,0.8,10
+Louisiana-Lafayette,1.0,2
+Louisville,0.6551724137931034,29
+Maine,1.0,3
+Malone University (Ohio),0.0,1
+Marshall,0.375,8
+Maryland,0.625,16
+Massachusetts,0.5,6
+McNeese St.,0.3333333333333333,3
+Memphis,0.6666666666666666,12
+Merrimack,0.0,1
+Miami (FL),0.7407407407407407,54
+Miami (OH),0.6666666666666666,3
+Michigan,0.7142857142857143,35
+Michigan St.,0.5,38
+Midwestern St.,1.0,1
+Minnesota,0.5625,16
+Mississippi,0.6153846153846154,26
+Mississippi St.,0.6666666666666666,30
+Missouri,0.6176470588235294,34
+Missouri State,1.0,2
+Missouri Western St.,0.3333333333333333,3
+Montana,1.0,1
+Montana St.,1.0,2
+NW State (LA),1.0,1
+Navy,1.0,1
+Nebraska,0.696969696969697,33
+Nevada,0.5,16
+New Hampshire,1.0,1
+New Mexico,0.8,5
+New Mexico St.,0.6666666666666666,3
+Newberry,1.0,1
+Norfolk St.,0.0,2
+North Carolina,0.6585365853658537,41
+North Carolina A&T,1.0,2
+North Carolina Central,1.0,1
+North Carolina St.,0.8,25
+North Dakota St.,0.3333333333333333,6
+Northern Arizona,0.0,1
+Northern Illinois,1.0,3
+Northern Iowa,0.0,1
+Northwest Missouri State,1.0,1
+Northwestern,0.8461538461538461,13
+Notre Dame,0.717391304347826,46
+Ohio,1.0,4
+Ohio St.,0.7288135593220338,59
+Oklahoma,0.7777777777777778,54
+Oklahoma St.,0.5625,32
+Old Dominion,0.3333333333333333,3
+Oregon,0.5853658536585366,41
+Oregon St.,0.75,12
+Penn St.,0.7209302325581395,43
+Pittsburg St.,1.0,1
+Pittsburgh,0.6666666666666666,27
+Portland St.,0.3333333333333333,3
+Prairie View,0.0,1
+Presbyterian,1.0,1
+Purdue,0.5454545454545454,11
+Rice,0.5714285714285714,7
+Richmond,0.5,6
+Rutgers,0.75,16
+SE Louisiana,0.4,5
+SMU,0.7272727272727273,11
+Saginaw Valley St.,1.0,1
+Sam Houston St.,0.0,1
+Samford,1.0,3
+San Diego St.,0.6,20
+San Jose St.,0.4666666666666667,15
+Shepherd,0.0,2
+Slippery Rock,1.0,1
+South Alabama,0.25,4
+South Carolina,0.7,40
+South Carolina St.,0.8,5
+South Dakota,1.0,2
+South Dakota St.,0.5,2
+South Florida,0.7333333333333333,15
+Southern,0.0,1
+Southern Arkansas,0.0,1
+Southern Illinois,0.3333333333333333,3
+Southern Miss,0.5555555555555556,9
+Southern Utah,0.5,2
+Stanford,0.7083333333333334,48
+Stephen F. Austin,0.3333333333333333,3
+Stony Brook,0.0,2
+Syracuse,0.47058823529411764,17
+TCU,0.6785714285714286,28
+Temple,0.7368421052631579,19
+Tenn-Chattanooga,0.5,4
+Tennessee,0.5882352941176471,34
+Tennessee St.,0.42857142857142855,7
+Tennessee Tech,0.0,2
+Tennessee-Martin,1.0,1
+Texas,0.6285714285714286,35
+Texas A&M,0.6285714285714286,35
+Texas St.,0.3333333333333333,3
+Texas Tech,0.7692307692307693,13
+Texas-El Paso,0.16666666666666666,6
+Texas-San Antonio,1.0,2
+Toledo,0.45454545454545453,11
+Towson,1.0,1
+Troy,0.7777777777777778,9
+Tulane,0.75,8
+Tulsa,0.3333333333333333,3
+UC Davis,0.0,1
+UCLA,0.7804878048780488,41
+UNLV,0.16666666666666666,6
+USC,0.6666666666666666,63
+Utah,0.7222222222222222,36
+Utah St.,0.6153846153846154,13
+Valdosta St.,1.0,1
+Vanderbilt,0.6153846153846154,13
+Villanova,1.0,2
+Virginia,0.7058823529411765,17
+Virginia Tech,0.6136363636363636,44
+Wagner,1.0,1
+Wake Forest,0.7222222222222222,18
+Washburn,0.0,1
+Washington,0.7428571428571429,35
+Washington St.,0.6666666666666666,15
+Wayne State (MI),0.0,2
+Weber St.,0.5,2
+West Georgia,0.0,1
+West Liberty,0.0,1
+West Texas A&M,0.3333333333333333,3
+West Virginia,0.6944444444444444,36
+West. Michigan,0.7,10
+Western Kentucky,0.875,8
+Western Michigan,0.0,1
+William & Mary,0.75,4
+Wisconsin,0.6046511627906976,43
+Wyoming,0.8333333333333334,6
+Yale,0.0,2
+Youngstown St.,0.3333333333333333,3
