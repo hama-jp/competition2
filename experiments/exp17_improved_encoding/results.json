@@ -1,0 +1,15 @@
+{
+  "encoding_results": {
+    "K-Fold (baseline)": 0.8513758595932477,
+    "K-Fold smooth=30": 0.8503720792544123,
+    "K-Fold smooth=50": 0.8511059164060807,
+    "LOO smooth=20": 0.9998775047722099,
+    "LOO smooth=30": 0.9998281664165722,
+    "Bayesian prior=20": 0.8513758595932477,
+    "Bayesian prior=30": 0.8503720792544123
+  },
+  "best_config": "LOO smooth=20",
+  "best_cv": 0.9998775047722099,
+  "exp13_cv": 0.85138,
+  "exp13_lb": 0.84524
+}
