@@ -1,0 +1,264 @@
+{
+  "high_corr_pairs": [
+    [
+      "Bench_Press_Reps_Pos_Z",
+      "Bench_Press_Reps_Pos_Diff",
+      0.9942570689449073
+    ],
+    [
+      "Age_Year_Diff",
+      "Age",
+      0.9919668215556259
+    ],
+    [
+      "Agility_3cone_Pos_Z",
+      "Agility_3cone_Pos_Diff",
+      0.9863136589786148
+    ],
+    [
+      "BMI_x_Speed",
+      "Sprint_Efficiency",
+      0.940398701540706
+    ],
+    [
+      "Agility_3cone_Pos_Z",
+      "Agility_3cone_Type_Z",
+      0.9272574142061253
+    ],
+    [
+      "Age_x_Momentum",
+      "Height_x_Weight",
+      0.9250087492075562
+    ],
+    [
+      "Agility_3cone_Type_Z",
+      "Agility_3cone_Pos_Diff",
+      0.9159647809499132
+    ],
+    [
+      "Age_x_Speed",
+      "Speed_Score_Year_Rank",
+      0.9127658610740881
+    ],
+    [
+      "Weight_Type_Z",
+      "Momentum_Type_Z",
+      0.8537871676774962
+    ],
+    [
+      "Height_x_Weight",
+      "Bench_per_Weight",
+      0.8380972414539347
+    ],
+    [
+      "Position_TE",
+      "Position_Type_TE",
+      0.8352812979999081
+    ],
+    [
+      "Age_x_Momentum",
+      "Sprint_Efficiency",
+      0.8312767585847805
+    ],
+    [
+      "Age_div_Explosion",
+      "Sprint_Efficiency",
+      0.8268069911902627
+    ],
+    [
+      "Age_x_Momentum",
+      "Bench_per_Weight",
+      0.8233563270362214
+    ],
+    [
+      "Momentum_Pos_Diff",
+      "Weight_Pos_Z",
+      0.8061831788260745
+    ],
+    [
+      "Age_div_Explosion",
+      "Height_x_Weight",
+      0.8054074669894837
+    ],
+    [
+      "Momentum_Pos_Diff",
+      "Momentum_Type_Z",
+      0.7915638464300402
+    ],
+    [
+      "Age_div_Explosion",
+      "Bench_per_Weight",
+      0.7454689614749014
+    ],
+    [
+      "Height_x_Weight",
+      "Sprint_Efficiency",
+      0.7367816711325744
+    ],
+    [
+      "BMI_Pos_Diff",
+      "BMI_Type_Z",
+      0.7305443990727873
+    ],
+    [
+      "Age_x_Momentum",
+      "Age_div_Explosion",
+      0.7266850996481449
+    ],
+    [
+      "Bench_per_Weight",
+      "Sprint_Efficiency",
+      0.7236393288277995
+    ],
+    [
+      "Weight_Type_Z",
+      "Weight_Pos_Z",
+      0.7183220247263921
+    ],
+    [
+      "BMI_x_Speed",
+      "Age_div_Explosion",
+      0.7007690110585496
+    ]
+  ],
+  "features_to_remove": [
+    "Agility_3cone_Pos_Diff",
+    "Agility_3cone_Type_Z",
+    "Bench_per_Weight",
+    "Age",
+    "Height_x_Weight",
+    "Weight_Type_Z",
+    "Age_x_Speed",
+    "Sprint_Efficiency",
+    "Position_Type_TE",
+    "BMI_Type_Z",
+    "Weight_Pos_Z",
+    "Momentum_Type_Z",
+    "Age_div_Explosion",
+    "Bench_Press_Reps_Pos_Diff"
+  ],
+  "removal_reasons": [
+    {
+      "remove": "Bench_Press_Reps_Pos_Diff",
+      "keep": "Bench_Press_Reps_Pos_Z",
+      "correlation": 0.9942570689449073,
+      "remove_imp": 73.8,
+      "keep_imp": 104.79999999999998
+    },
+    {
+      "remove": "Age",
+      "keep": "Age_Year_Diff",
+      "correlation": 0.9919668215556259,
+      "remove_imp": 25.2,
+      "keep_imp": 116.4
+    },
+    {
+      "remove": "Agility_3cone_Pos_Diff",
+      "keep": "Agility_3cone_Pos_Z",
+      "correlation": 0.9863136589786148,
+      "remove_imp": 81.6,
+      "keep_imp": 83.2
+    },
+    {
+      "remove": "Sprint_Efficiency",
+      "keep": "BMI_x_Speed",
+      "correlation": 0.940398701540706,
+      "remove_imp": 72.8,
+      "keep_imp": 103.2
+    },
+    {
+      "remove": "Agility_3cone_Type_Z",
+      "keep": "Agility_3cone_Pos_Z",
+      "correlation": 0.9272574142061253,
+      "remove_imp": 79.4,
+      "keep_imp": 83.2
+    },
+    {
+      "remove": "Height_x_Weight",
+      "keep": "Age_x_Momentum",
+      "correlation": 0.9250087492075562,
+      "remove_imp": 97.4,
+      "keep_imp": 104.2
+    },
+    {
+      "remove": "Age_x_Speed",
+      "keep": "Speed_Score_Year_Rank",
+      "correlation": 0.9127658610740881,
+      "remove_imp": 104.6,
+      "keep_imp": 143.79999999999998
+    },
+    {
+      "remove": "Weight_Type_Z",
+      "keep": "Momentum_Type_Z",
+      "correlation": 0.8537871676774962,
+      "remove_imp": 87.20000000000002,
+      "keep_imp": 103.19999999999999
+    },
+    {
+      "remove": "Bench_per_Weight",
+      "keep": "Height_x_Weight",
+      "correlation": 0.8380972414539347,
+      "remove_imp": 89.4,
+      "keep_imp": 97.4
+    },
+    {
+      "remove": "Position_Type_TE",
+      "keep": "Position_TE",
+      "correlation": 0.8352812979999081,
+      "remove_imp": 58.8,
+      "keep_imp": 62.4
+    },
+    {
+      "remove": "Weight_Pos_Z",
+      "keep": "Momentum_Pos_Diff",
+      "correlation": 0.8061831788260745,
+      "remove_imp": 98.80000000000001,
+      "keep_imp": 123.19999999999999
+    },
+    {
+      "remove": "Age_div_Explosion",
+      "keep": "Height_x_Weight",
+      "correlation": 0.8054074669894837,
+      "remove_imp": 86.2,
+      "keep_imp": 97.4
+    },
+    {
+      "remove": "Momentum_Type_Z",
+      "keep": "Momentum_Pos_Diff",
+      "correlation": 0.7915638464300402,
+      "remove_imp": 103.19999999999999,
+      "keep_imp": 123.19999999999999
+    },
+    {
+      "remove": "BMI_Type_Z",
+      "keep": "BMI_Pos_Diff",
+      "correlation": 0.7305443990727873,
+      "remove_imp": 74.60000000000001,
+      "keep_imp": 93.6
+    }
+  ],
+  "cv_baseline": 0.8463501526086381,
+  "cv_reduced_all": 0.8447849358090981,
+  "single_removal_results": {
+    "Agility_3cone_Pos_Diff": {
+      "cv": 0.8458828559989201,
+      "diff": -0.00046729660971800424
+    },
+    "Agility_3cone_Type_Z": {
+      "cv": 0.8469546892420834,
+      "diff": 0.0006045366334452851
+    },
+    "Bench_per_Weight": {
+      "cv": 0.8471718914283966,
+      "diff": 0.0008217388197584441
+    },
+    "Age": {
+      "cv": 0.8464227423732542,
+      "diff": 7.258976461610445e-05
+    },
+    "Height_x_Weight": {
+      "cv": 0.8453384327642977,
+      "diff": -0.001011719844340453
+    }
+  }
+}
