@@ -1,0 +1,21 @@
+{
+  "baseline_cv": 0.8383873956947463,
+  "add_results": {
+    "School_Year_Count": 0.8384894750512382,
+    "Shuttle_Pos_Z": 0.8365080013202264,
+    "Agility_3cone_Pos_Diff": 0.8396146164027916,
+    "Shuttle_Type_Z": 0.8391694369869803,
+    "Sprint_40yd_Pos_Diff": 0.8366928783769837
+  },
+  "swap_results": {
+    "+School_Year_Count,-Position_Type_TE": 0.8381690592933614,
+    "+School_Year_Count,-Broad_Jump_Year_Rank": 0.8392250135255146,
+    "+School_Year_Count,-Sprint_Efficiency": 0.8327877758836385,
+    "+Shuttle_Pos_Z,-Position_Type_TE": 0.8335834277567382,
+    "+Shuttle_Pos_Z,-Broad_Jump_Year_Rank": 0.8367110258181376,
+    "+Shuttle_Pos_Z,-Sprint_Efficiency": 0.8331569628896172,
+    "+Agility_3cone_Pos_Diff,-Position_Type_TE": 0.8384112142112611,
+    "+Agility_3cone_Pos_Diff,-Broad_Jump_Year_Rank": 0.8375163185193502,
+    "+Agility_3cone_Pos_Diff,-Sprint_Efficiency": 0.8349875860160355
+  }
+}

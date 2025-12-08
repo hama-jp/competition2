@@ -1,0 +1,670 @@
+{
+  "all_feature_importance": [
+    [
+      "School_TE",
+      116.39999999999999
+    ],
+    [
+      "Age_Year_Diff",
+      92.19999999999999
+    ],
+    [
+      "Broad_Jump_Type_Z",
+      73.6
+    ],
+    [
+      "School_Count",
+      68.2
+    ],
+    [
+      "Age_x_Momentum",
+      61.400000000000006
+    ],
+    [
+      "Momentum_Pos_Diff",
+      58.8
+    ],
+    [
+      "School",
+      57.8
+    ],
+    [
+      "Age_x_Speed",
+      56.8
+    ],
+    [
+      "Agility_3cone_Pos_Z",
+      54.599999999999994
+    ],
+    [
+      "Weight_Type_Z",
+      53.8
+    ],
+    [
+      "Bench_Press_Reps_Pos_Z",
+      53.4
+    ],
+    [
+      "Weight_Pos_Z",
+      51.199999999999996
+    ],
+    [
+      "Speed_Score_Year_Rank",
+      50.400000000000006
+    ],
+    [
+      "BMI_x_Speed",
+      49.4
+    ],
+    [
+      "Momentum_Type_Z",
+      48.400000000000006
+    ],
+    [
+      "BMI_Pos_Diff",
+      48.0
+    ],
+    [
+      "Age_div_Explosion",
+      47.599999999999994
+    ],
+    [
+      "Bench_Press_Reps_Pos_Diff",
+      47.2
+    ],
+    [
+      "Position_TE",
+      46.8
+    ],
+    [
+      "Work_Rate_Vertical_Type_Z",
+      46.599999999999994
+    ],
+    [
+      "Age",
+      46.0
+    ],
+    [
+      "Year",
+      43.400000000000006
+    ],
+    [
+      "Height_Pos_Diff",
+      43.4
+    ],
+    [
+      "Height_x_Weight",
+      43.2
+    ],
+    [
+      "BMI_Type_Z",
+      41.2
+    ],
+    [
+      "Agility_3cone_Type_Z",
+      40.8
+    ],
+    [
+      "Bench_per_Weight",
+      40.599999999999994
+    ],
+    [
+      "Sprint_Efficiency",
+      40.4
+    ],
+    [
+      "Broad_Jump_Year_Rank",
+      38.99999999999999
+    ],
+    [
+      "Position_Type_TE",
+      38.6
+    ],
+    [
+      "Sprint_40yd_Pos_Diff",
+      38.4
+    ],
+    [
+      "Agility_3cone_Pos_Diff",
+      37.8
+    ],
+    [
+      "Momentum_Pos_Z",
+      37.6
+    ],
+    [
+      "Jump_Efficiency",
+      37.4
+    ],
+    [
+      "Bench_Press_Reps_Type_Z",
+      37.2
+    ],
+    [
+      "Sprint_40yd_Year_Rank",
+      37.2
+    ],
+    [
+      "Sprint_40yd_Type_Z",
+      37.199999999999996
+    ],
+    [
+      "Shuttle_Pos_Z",
+      35.4
+    ],
+    [
+      "Speed_Score_Pos_Rank",
+      35.4
+    ],
+    [
+      "School_Year_Count",
+      34.8
+    ],
+    [
+      "Speed_Score_Type_Z",
+      34.6
+    ],
+    [
+      "BMI_Pos_Z",
+      32.6
+    ],
+    [
+      "Work_Rate_Vertical",
+      30.799999999999997
+    ],
+    [
+      "Explosion_Score_Type_Z",
+      30.4
+    ],
+    [
+      "Weight_Pos_Diff",
+      30.0
+    ],
+    [
+      "Speed_Score",
+      29.8
+    ],
+    [
+      "Work_Rate_Vertical_Pos_Diff",
+      29.0
+    ],
+    [
+      "Explosion_Score_Pos_Z",
+      28.599999999999998
+    ],
+    [
+      "Speed_Score_Pos_Z",
+      28.2
+    ],
+    [
+      "Shuttle_Type_Z",
+      27.599999999999998
+    ],
+    [
+      "Work_Rate_Vertical_Pos_Z",
+      27.400000000000002
+    ],
+    [
+      "Power_x_Speed",
+      27.4
+    ],
+    [
+      "Explosion_Score_Pos_Rank",
+      27.0
+    ],
+    [
+      "Broad_Jump_Pos_Z",
+      26.6
+    ],
+    [
+      "Shuttle_Pos_Diff",
+      26.6
+    ],
+    [
+      "Sprint_40yd_Pos_Rank",
+      26.4
+    ],
+    [
+      "Height_Pos_Z",
+      25.8
+    ],
+    [
+      "Speed_x_Agility",
+      24.6
+    ],
+    [
+      "Broad_Jump_Pos_Rank",
+      24.4
+    ],
+    [
+      "Sprint_40yd_Pos_Z",
+      24.2
+    ],
+    [
+      "Height_Type_Z",
+      23.2
+    ],
+    [
+      "BMI",
+      22.6
+    ],
+    [
+      "Speed_Score_Pos_Diff",
+      21.400000000000002
+    ],
+    [
+      "Vertical_Jump_Type_Z",
+      20.6
+    ],
+    [
+      "Bench_Press_Reps",
+      20.2
+    ],
+    [
+      "Sprint_40yd",
+      20.0
+    ],
+    [
+      "Vertical_Jump_Year_Rank",
+      20.0
+    ],
+    [
+      "Explosion_Score_Pos_Diff",
+      19.4
+    ],
+    [
+      "Agility_3cone",
+      19.2
+    ],
+    [
+      "Shuttle",
+      17.2
+    ],
+    [
+      "Explosion_Score_Year_Rank",
+      16.6
+    ],
+    [
+      "Broad_Jump_Pos_Diff",
+      16.400000000000002
+    ],
+    [
+      "Vertical_Jump_Pos_Rank",
+      16.2
+    ],
+    [
+      "Weight_x_Vertical",
+      15.0
+    ],
+    [
+      "Weight",
+      14.600000000000001
+    ],
+    [
+      "Position",
+      14.200000000000001
+    ],
+    [
+      "Agility_Sum",
+      13.999999999999998
+    ],
+    [
+      "Power_Sum",
+      13.200000000000001
+    ],
+    [
+      "Vertical_Jump_Pos_Z",
+      13.0
+    ],
+    [
+      "Vertical_Jump_Pos_Diff",
+      12.600000000000001
+    ],
+    [
+      "Momentum",
+      12.6
+    ],
+    [
+      "Vertical_Jump",
+      12.0
+    ],
+    [
+      "Height",
+      11.4
+    ],
+    [
+      "Explosion_Score",
+      10.8
+    ],
+    [
+      "Elite_Score",
+      8.0
+    ],
+    [
+      "Broad_Jump",
+      7.800000000000001
+    ],
+    [
+      "Player_Type",
+      4.800000000000001
+    ],
+    [
+      "Talent_Diff",
+      4.2
+    ],
+    [
+      "Red_Flag_Count",
+      4.0
+    ],
+    [
+      "Missing_Count",
+      3.8
+    ],
+    [
+      "Elite_Count",
+      3.6
+    ],
+    [
+      "Position_Type",
+      0.4
+    ]
+  ],
+  "top30_features": [
+    "School_TE",
+    "Age_Year_Diff",
+    "Broad_Jump_Type_Z",
+    "School_Count",
+    "Age_x_Momentum",
+    "Momentum_Pos_Diff",
+    "School",
+    "Age_x_Speed",
+    "Agility_3cone_Pos_Z",
+    "Weight_Type_Z",
+    "Bench_Press_Reps_Pos_Z",
+    "Weight_Pos_Z",
+    "Speed_Score_Year_Rank",
+    "BMI_x_Speed",
+    "Momentum_Type_Z",
+    "BMI_Pos_Diff",
+    "Age_div_Explosion",
+    "Bench_Press_Reps_Pos_Diff",
+    "Position_TE",
+    "Work_Rate_Vertical_Type_Z",
+    "Age",
+    "Year",
+    "Height_Pos_Diff",
+    "Height_x_Weight",
+    "BMI_Type_Z",
+    "Agility_3cone_Type_Z",
+    "Bench_per_Weight",
+    "Sprint_Efficiency",
+    "Broad_Jump_Year_Rank",
+    "Position_Type_TE"
+  ],
+  "bottom10_top30": [
+    [
+      "Position_Type_TE",
+      38.6
+    ],
+    [
+      "Broad_Jump_Year_Rank",
+      38.99999999999999
+    ],
+    [
+      "Sprint_Efficiency",
+      40.4
+    ],
+    [
+      "Bench_per_Weight",
+      40.599999999999994
+    ],
+    [
+      "Agility_3cone_Type_Z",
+      40.8
+    ],
+    [
+      "BMI_Type_Z",
+      41.2
+    ],
+    [
+      "Height_x_Weight",
+      43.2
+    ],
+    [
+      "Height_Pos_Diff",
+      43.4
+    ],
+    [
+      "Year",
+      43.400000000000006
+    ],
+    [
+      "Age",
+      46.0
+    ]
+  ],
+  "top20_outside_top30": [
+    {
+      "feature": "Sprint_40yd_Pos_Diff",
+      "importance": 38.4,
+      "avg_corr_top30": 0.21651072671962793,
+      "max_corr_top30": 0.672704158674079,
+      "score": 121.32290237991066
+    },
+    {
+      "feature": "Agility_3cone_Pos_Diff",
+      "importance": 37.8,
+      "avg_corr_top30": 0.14307694283192057,
+      "max_corr_top30": 0.9863136589786148,
+      "score": 155.50631647583873
+    },
+    {
+      "feature": "Momentum_Pos_Z",
+      "importance": 37.6,
+      "avg_corr_top30": 0.3293351260895331,
+      "max_corr_top30": 0.9841081899723403,
+      "score": 87.5772740573734
+    },
+    {
+      "feature": "Jump_Efficiency",
+      "importance": 37.4,
+      "avg_corr_top30": 0.3095273485530475,
+      "max_corr_top30": 0.9555174326494983,
+      "score": 91.3247921833368
+    },
+    {
+      "feature": "Bench_Press_Reps_Type_Z",
+      "importance": 37.2,
+      "avg_corr_top30": 0.22326691791436165,
+      "max_corr_top30": 0.917101703385354,
+      "score": 115.07518381406058
+    },
+    {
+      "feature": "Sprint_40yd_Year_Rank",
+      "importance": 37.2,
+      "avg_corr_top30": 0.26017989290068155,
+      "max_corr_top30": 0.815290255859318,
+      "score": 103.28172319785153
+    },
+    {
+      "feature": "Sprint_40yd_Type_Z",
+      "importance": 37.199999999999996,
+      "avg_corr_top30": 0.2204420063017092,
+      "max_corr_top30": 0.6925321339089329,
+      "score": 116.0896488863407
+    },
+    {
+      "feature": "Shuttle_Pos_Z",
+      "importance": 35.4,
+      "avg_corr_top30": 0.12485667622032658,
+      "max_corr_top30": 0.6304451939164949,
+      "score": 157.43361769393582
+    },
+    {
+      "feature": "Speed_Score_Pos_Rank",
+      "importance": 35.4,
+      "avg_corr_top30": 0.2665481365078436,
+      "max_corr_top30": 0.7860101512309331,
+      "score": 96.57667431421382
+    },
+    {
+      "feature": "School_Year_Count",
+      "importance": 34.8,
+      "avg_corr_top30": 0.07188507779952832,
+      "max_corr_top30": 0.7638496489210407,
+      "score": 202.46085608773825
+    },
+    {
+      "feature": "Speed_Score_Type_Z",
+      "importance": 34.6,
+      "avg_corr_top30": 0.28026297005851614,
+      "max_corr_top30": 0.8457653272199485,
+      "score": 90.98966432275968
+    },
+    {
+      "feature": "BMI_Pos_Z",
+      "importance": 32.6,
+      "avg_corr_top30": 0.23673282158825418,
+      "max_corr_top30": 0.9770554723128737,
+      "score": 96.81265950327293
+    },
+    {
+      "feature": "Work_Rate_Vertical",
+      "importance": 30.799999999999997,
+      "avg_corr_top30": 0.3251097063907357,
+      "max_corr_top30": 0.8529129616054872,
+      "score": 72.45188603548482
+    },
+    {
+      "feature": "Explosion_Score_Type_Z",
+      "importance": 30.4,
+      "avg_corr_top30": 0.3247162586437021,
+      "max_corr_top30": 0.8610948981143952,
+      "score": 71.57719861509423
+    },
+    {
+      "feature": "Weight_Pos_Diff",
+      "importance": 30.0,
+      "avg_corr_top30": 0.2747478923852272,
+      "max_corr_top30": 0.9713803848063147,
+      "score": 80.05381913972471
+    },
+    {
+      "feature": "Speed_Score",
+      "importance": 29.8,
+      "avg_corr_top30": 0.28355713814581374,
+      "max_corr_top30": 0.9675720462852939,
+      "score": 77.69376980978303
+    },
+    {
+      "feature": "Work_Rate_Vertical_Pos_Diff",
+      "importance": 29.0,
+      "avg_corr_top30": 0.25380557377676316,
+      "max_corr_top30": 0.9292270681514083,
+      "score": 81.96592182094287
+    },
+    {
+      "feature": "Explosion_Score_Pos_Z",
+      "importance": 28.599999999999998,
+      "avg_corr_top30": 0.3036542589649719,
+      "max_corr_top30": 0.7897235356119481,
+      "score": 70.85271458137107
+    },
+    {
+      "feature": "Speed_Score_Pos_Z",
+      "importance": 28.2,
+      "avg_corr_top30": 0.27443843888518693,
+      "max_corr_top30": 0.7850792437109627,
+      "score": 75.3127806107719
+    },
+    {
+      "feature": "Shuttle_Type_Z",
+      "importance": 27.599999999999998,
+      "avg_corr_top30": 0.14833110146251788,
+      "max_corr_top30": 0.6704196855060847,
+      "score": 111.14193847429068
+    }
+  ],
+  "recommended_swaps": [
+    {
+      "add": "Sprint_40yd_Pos_Diff",
+      "add_imp": 38.4,
+      "remove": "Position_Type_TE",
+      "remove_imp": 38.6,
+      "correlation": 0.006589437863889058,
+      "imp_gain": -0.20000000000000284
+    },
+    {
+      "add": "Sprint_40yd_Pos_Diff",
+      "add_imp": 38.4,
+      "remove": "Broad_Jump_Year_Rank",
+      "remove_imp": 38.99999999999999,
+      "correlation": 0.2972163442677936,
+      "imp_gain": -0.5999999999999943
+    },
+    {
+      "add": "Agility_3cone_Pos_Diff",
+      "add_imp": 37.8,
+      "remove": "Position_Type_TE",
+      "remove_imp": 38.6,
+      "correlation": 0.009775634863048646,
+      "imp_gain": -0.8000000000000043
+    },
+    {
+      "add": "Momentum_Pos_Z",
+      "add_imp": 37.6,
+      "remove": "Position_Type_TE",
+      "remove_imp": 38.6,
+      "correlation": 0.005768836705875893,
+      "imp_gain": -1.0
+    },
+    {
+      "add": "Agility_3cone_Pos_Diff",
+      "add_imp": 37.8,
+      "remove": "Broad_Jump_Year_Rank",
+      "remove_imp": 38.99999999999999,
+      "correlation": 0.1793975817331744,
+      "imp_gain": -1.1999999999999957
+    },
+    {
+      "add": "Jump_Efficiency",
+      "add_imp": 37.4,
+      "remove": "Position_Type_TE",
+      "remove_imp": 38.6,
+      "correlation": 0.3163145555675655,
+      "imp_gain": -1.2000000000000028
+    },
+    {
+      "add": "Momentum_Pos_Z",
+      "add_imp": 37.6,
+      "remove": "Broad_Jump_Year_Rank",
+      "remove_imp": 38.99999999999999,
+      "correlation": 0.16583232209753082,
+      "imp_gain": -1.3999999999999915
+    },
+    {
+      "add": "Bench_Press_Reps_Type_Z",
+      "add_imp": 37.2,
+      "remove": "Position_Type_TE",
+      "remove_imp": 38.6,
+      "correlation": 0.01377387285075979,
+      "imp_gain": -1.3999999999999986
+    },
+    {
+      "add": "Sprint_40yd_Year_Rank",
+      "add_imp": 37.2,
+      "remove": "Position_Type_TE",
+      "remove_imp": 38.6,
+      "correlation": 0.14973563672378784,
+      "imp_gain": -1.3999999999999986
+    },
+    {
+      "add": "Sprint_40yd_Type_Z",
+      "add_imp": 37.199999999999996,
+      "remove": "Position_Type_TE",
+      "remove_imp": 38.6,
+      "correlation": 0.011779376746795167,
+      "imp_gain": -1.4000000000000057
+    }
+  ]
+}
