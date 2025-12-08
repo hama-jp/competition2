@@ -1,0 +1,70 @@
+{
+  "best_n_pca": 5,
+  "n_features": 36,
+  "features": [
+    "School_TE",
+    "Age_Year_Diff",
+    "Broad_Jump_Type_Z",
+    "School_Count",
+    "Age_x_Momentum",
+    "Momentum_Pos_Diff",
+    "School",
+    "Age_x_Speed",
+    "Agility_3cone_Pos_Z",
+    "Weight_Type_Z",
+    "Bench_Press_Reps_Pos_Z",
+    "Weight_Pos_Z",
+    "Speed_Score_Year_Rank",
+    "BMI_x_Speed",
+    "Momentum_Type_Z",
+    "BMI_Pos_Diff",
+    "Age_div_Explosion",
+    "Bench_Press_Reps_Pos_Diff",
+    "Position_TE",
+    "Work_Rate_Vertical_Type_Z",
+    "Age",
+    "Year",
+    "Height_Pos_Diff",
+    "Height_x_Weight",
+    "BMI_Type_Z",
+    "Agility_3cone_Type_Z",
+    "Bench_per_Weight",
+    "Sprint_Efficiency",
+    "Broad_Jump_Year_Rank",
+    "Position_Type_TE",
+    "Agility_3cone_Pos_Diff",
+    "PCA_1",
+    "PCA_2",
+    "PCA_3",
+    "PCA_4",
+    "PCA_5"
+  ],
+  "cv_lgb": 0.8489928737267018,
+  "cv_xgb": 0.8452079980310027,
+  "cv_cat": 0.8486599816030316,
+  "cv_ensemble": 0.8505648958166746,
+  "pca_test_results": {
+    "1": {
+      "cv": 0.8463240656619789,
+      "diff": -2.6086946659176213e-05
+    },
+    "2": {
+      "cv": 0.8466875815925967,
+      "diff": 0.00033742898395860976
+    },
+    "3": {
+      "cv": 0.8468174492183556,
+      "diff": 0.00046729660971744913
+    },
+    "5": {
+      "cv": 0.8476471275436191,
+      "diff": 0.0012969749349810433
+    },
+    "10": {
+      "cv": 0.8443613064796572,
+      "diff": -0.00198884612898087
+    }
+  },
+  "exp21_cv": 0.85161,
+  "exp21_lb": 0.84582
+}
