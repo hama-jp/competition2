@@ -1,0 +1,50 @@
+{
+  "baseline_cv": 0.84717,
+  "strategies": [
+    {
+      "name": "single_0.35",
+      "n_samples": 277,
+      "n_pos": 162,
+      "n_neg": 115,
+      "cv": 0.84994
+    },
+    {
+      "name": "single_0.4",
+      "n_samples": 171,
+      "n_pos": 72,
+      "n_neg": 99,
+      "cv": 0.8484
+    },
+    {
+      "name": "single_0.45",
+      "n_samples": 3,
+      "n_pos": 3,
+      "n_neg": 0,
+      "cv": 0.84734
+    },
+    {
+      "name": "consensus_0.3",
+      "n_samples": 259,
+      "n_pos": 184,
+      "n_neg": 75,
+      "cv": 0.84987
+    },
+    {
+      "name": "consensus_0.35",
+      "n_samples": 56,
+      "n_pos": 56,
+      "n_neg": 0,
+      "cv": 0.84854
+    },
+    {
+      "name": "consensus_0.4",
+      "n_samples": 0,
+      "n_pos": 0,
+      "n_neg": 0,
+      "cv": null
+    }
+  ],
+  "best_strategy": "single_0.35",
+  "best_cv": 0.84994,
+  "note": "exp11 showed overfitting (CV up, LB down). Use with caution."
+}

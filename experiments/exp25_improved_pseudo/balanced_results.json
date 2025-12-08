@@ -1,0 +1,10 @@
+{
+  "baseline_cv": 0.8471718914283966,
+  "original_cv": 0.8499433459571469,
+  "original_samples": 277,
+  "original_pos_ratio": 58.5,
+  "balanced_cv": 0.8499059168597669,
+  "balanced_samples": 249,
+  "balanced_pos_ratio": 65.06024096385542,
+  "train_pos_ratio": 64.83279395900755
+}
