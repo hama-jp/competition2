@@ -1,0 +1,14 @@
+{
+  "cv_simple_avg": 0.8510752925991333,
+  "stacking_results": {
+    "LR_pred_only": 0.8506647067430221,
+    "LGB_pred_only": 0.8443519492053122,
+    "LGB_hybrid": 0.8418002488467868,
+    "Blend": 0.8510752925991333
+  },
+  "best_method": "Blend",
+  "best_cv": 0.8510752925991333,
+  "blend_weight": 0.0,
+  "exp13_cv": 0.85138,
+  "exp13_lb": 0.84524
+}
