@@ -1,0 +1,7 @@
+{
+  "n_features": 31,
+  "model": "CatBoost only",
+  "cv_catboost": 0.8508331376812335,
+  "exp21_cv": 0.85161,
+  "exp21_lb": 0.84582
+}
