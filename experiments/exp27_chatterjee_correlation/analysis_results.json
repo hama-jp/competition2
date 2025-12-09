@@ -1,0 +1,1724 @@
+{
+  "correlation_stats": [
+    {
+      "feature": "Year",
+      "pearson": 0.02456295223178262,
+      "pearson_signed": -0.02456295223178262,
+      "spearman": 0.02403788586858044,
+      "spearman_signed": -0.02403788586858044,
+      "chatterjee": 0.3398057398796994,
+      "chatterjee_ties": -0.7794045692348226,
+      "n_valid": 2781,
+      "nonlinear_score": 0.3152427876479168,
+      "chatterjee_vs_spearman": 0.31576785401111895,
+      "composite_score": 0.15050254738198868
+    },
+    {
+      "feature": "Age",
+      "pearson": 0.13305519884354114,
+      "pearson_signed": -0.13305519884354114,
+      "spearman": 0.14064158025729895,
+      "spearman_signed": -0.14064158025729895,
+      "chatterjee": 0.4609973445209281,
+      "chatterjee_ties": -2.257034726499583,
+      "n_valid": 2346,
+      "nonlinear_score": 0.327942145677387,
+      "chatterjee_vs_spearman": 0.32035576426362916,
+      "composite_score": 0.26650797153862327
+    },
+    {
+      "feature": "Height",
+      "pearson": 0.04687527442249509,
+      "pearson_signed": 0.04687527442249509,
+      "spearman": 0.044500483742048846,
+      "spearman_signed": 0.044500483742048846,
+      "chatterjee": 0.32740012878266767,
+      "chatterjee_ties": -0.812841093003124,
+      "n_valid": 2781,
+      "nonlinear_score": 0.2805248543601726,
+      "chatterjee_vs_spearman": 0.2828996450406188,
+      "composite_score": 0.15837277896243027
+    },
+    {
+      "feature": "Weight",
+      "pearson": 0.07102376950093234,
+      "pearson_signed": 0.07102376950093234,
+      "spearman": 0.07365051950759435,
+      "spearman_signed": 0.07365051950759435,
+      "chatterjee": 0.32416388240952887,
+      "chatterjee_ties": -0.8215636644209416,
+      "n_valid": 2781,
+      "nonlinear_score": 0.2531401129085965,
+      "chatterjee_vs_spearman": 0.2505133629019345,
+      "composite_score": 0.17306783966636957
+    },
+    {
+      "feature": "Sprint_40yd",
+      "pearson": 0.11242951455410065,
+      "pearson_signed": -0.11242951455410065,
+      "spearman": 0.13019984058346917,
+      "spearman_signed": -0.13019984058346917,
+      "chatterjee": 0.32568275576221906,
+      "chatterjee_ties": -0.8533114044455836,
+      "n_valid": 2636,
+      "nonlinear_score": 0.2132532412081184,
+      "chatterjee_vs_spearman": 0.19548291517874988,
+      "composite_score": 0.20306190884615855
+    },
+    {
+      "feature": "Vertical_Jump",
+      "pearson": 0.10940576644229623,
+      "pearson_signed": 0.10940576644229623,
+      "spearman": 0.1035249021031679,
+      "spearman_signed": 0.1035249021031679,
+      "chatterjee": 0.3298157606933563,
+      "chatterjee_ties": -0.9802047885269811,
+      "n_valid": 2227,
+      "nonlinear_score": 0.22040999425106006,
+      "chatterjee_vs_spearman": 0.22629085859018838,
+      "composite_score": 0.19580550484098175
+    },
+    {
+      "feature": "Bench_Press_Reps",
+      "pearson": 0.1322444800885339,
+      "pearson_signed": 0.1322444800885339,
+      "spearman": 0.12790091574901263,
+      "spearman_signed": 0.12790091574901263,
+      "chatterjee": 0.3461163507673557,
+      "chatterjee_ties": -0.9371241997063757,
+      "n_valid": 2060,
+      "nonlinear_score": 0.2138718706788218,
+      "chatterjee_vs_spearman": 0.21821543501834306,
+      "composite_score": 0.21649015905820623
+    },
+    {
+      "feature": "Broad_Jump",
+      "pearson": 0.11267341658633308,
+      "pearson_signed": 0.11267341658633308,
+      "spearman": 0.11375615473487748,
+      "spearman_signed": 0.11375615473487748,
+      "chatterjee": 0.348863501831302,
+      "chatterjee_ties": -0.9080433882346104,
+      "n_valid": 2200,
+      "nonlinear_score": 0.23619008524496893,
+      "chatterjee_vs_spearman": 0.2351073470964245,
+      "composite_score": 0.20747427212888397
+    },
+    {
+      "feature": "Agility_3cone",
+      "pearson": 0.07337192888005283,
+      "pearson_signed": -0.07337192888005283,
+      "spearman": 0.06760167302987434,
+      "spearman_signed": -0.06760167302987434,
+      "chatterjee": 0.3705133365043357,
+      "chatterjee_ties": -0.9438740201963138,
+      "n_valid": 1811,
+      "nonlinear_score": 0.29714140762428287,
+      "chatterjee_vs_spearman": 0.30291166347446136,
+      "composite_score": 0.19049741517471244
+    },
+    {
+      "feature": "Shuttle",
+      "pearson": 0.08794927879172143,
+      "pearson_signed": -0.08794927879172143,
+      "spearman": 0.07615313578468669,
+      "spearman_signed": -0.07615313578468669,
+      "chatterjee": 0.3378810303564681,
+      "chatterjee_ties": -1.0450150664728537,
+      "n_valid": 1869,
+      "nonlinear_score": 0.24993175156474667,
+      "chatterjee_vs_spearman": 0.2617278945717814,
+      "composite_score": 0.18438313651550967
+    },
+    {
+      "feature": "Missing_Count",
+      "pearson": 0.08080594087387631,
+      "pearson_signed": -0.08080594087387631,
+      "spearman": 0.08718294651467041,
+      "spearman_signed": -0.08718294651467041,
+      "chatterjee": 0.3182307640587746,
+      "chatterjee_ties": -0.8375550453536076,
+      "n_valid": 2781,
+      "nonlinear_score": 0.23742482318489827,
+      "chatterjee_vs_spearman": 0.2310478175441042,
+      "composite_score": 0.17768897184007387
+    },
+    {
+      "feature": "BMI",
+      "pearson": 0.06716511699902313,
+      "pearson_signed": 0.06716511699902313,
+      "spearman": 0.0742283405885057,
+      "spearman_signed": 0.0742283405885057,
+      "chatterjee": 0.3155338920811589,
+      "chatterjee_ties": -0.8448238548684557,
+      "n_valid": 2781,
+      "nonlinear_score": 0.24836877508213578,
+      "chatterjee_vs_spearman": 0.2413055514926532,
+      "composite_score": 0.16863159410872222
+    },
+    {
+      "feature": "Speed_Score",
+      "pearson": 0.2996546596272825,
+      "pearson_signed": 0.2996546596272825,
+      "spearman": 0.2938662392935499,
+      "spearman_signed": 0.2938662392935499,
+      "chatterjee": 0.38258716455865627,
+      "chatterjee_ties": -0.6969138175725387,
+      "n_valid": 2636,
+      "nonlinear_score": 0.08293250493137377,
+      "chatterjee_vs_spearman": 0.08872092526510639,
+      "composite_score": 0.33109113549971225
+    },
+    {
+      "feature": "Explosion_Score",
+      "pearson": 0.16279510938888378,
+      "pearson_signed": 0.16279510938888378,
+      "spearman": 0.15793739496922654,
+      "spearman_signed": 0.15793739496922654,
+      "chatterjee": 0.337418914677735,
+      "chatterjee_ties": -0.9694816244925368,
+      "n_valid": 2162,
+      "nonlinear_score": 0.1746238052888512,
+      "chatterjee_vs_spearman": 0.17948151970850845,
+      "composite_score": 0.2311873171785271
+    },
+    {
+      "feature": "Momentum",
+      "pearson": 0.1484347664260829,
+      "pearson_signed": 0.1484347664260829,
+      "spearman": 0.14606196281054576,
+      "spearman_signed": 0.14606196281054576,
+      "chatterjee": 0.35185878380858016,
+      "chatterjee_ties": -0.7813685144839828,
+      "n_valid": 2636,
+      "nonlinear_score": 0.20342401738249727,
+      "chatterjee_vs_spearman": 0.2057968209980344,
+      "composite_score": 0.22909253229442064
+    },
+    {
+      "feature": "Work_Rate_Vertical",
+      "pearson": 0.18694026224674537,
+      "pearson_signed": 0.18694026224674537,
+      "spearman": 0.18044522779689814,
+      "spearman_signed": 0.18044522779689814,
+      "chatterjee": 0.3554107366668764,
+      "chatterjee_ties": -0.9045788770053476,
+      "n_valid": 2227,
+      "nonlinear_score": 0.16847047442013102,
+      "chatterjee_vs_spearman": 0.17496550886997825,
+      "composite_score": 0.2523799416798436
+    },
+    {
+      "feature": "Agility_Sum",
+      "pearson": 0.08063051271529277,
+      "pearson_signed": -0.08063051271529277,
+      "spearman": 0.0728896177392308,
+      "spearman_signed": -0.0728896177392308,
+      "chatterjee": 0.39393920308560193,
+      "chatterjee_ties": -0.8809814224057047,
+      "n_valid": 1782,
+      "nonlinear_score": 0.3133086903703092,
+      "chatterjee_vs_spearman": 0.3210495853463711,
+      "composite_score": 0.20363172037059787
+    },
+    {
+      "feature": "Power_Sum",
+      "pearson": 0.11344482256434418,
+      "pearson_signed": 0.11344482256434418,
+      "spearman": 0.11218361882040286,
+      "spearman_signed": 0.11218361882040286,
+      "chatterjee": 0.351988760532989,
+      "chatterjee_ties": -0.9261736515979366,
+      "n_valid": 2162,
+      "nonlinear_score": 0.23854393796864481,
+      "chatterjee_vs_spearman": 0.23980514171258616,
+      "composite_score": 0.20848403662861972
+    },
+    {
+      "feature": "Age_x_Speed",
+      "pearson": 0.19282847398821973,
+      "pearson_signed": 0.19282847398821973,
+      "spearman": 0.1851367631898243,
+      "spearman_signed": 0.1851367631898243,
+      "chatterjee": 0.48324386465555635,
+      "chatterjee_ties": -2.094686208677686,
+      "n_valid": 2238,
+      "nonlinear_score": 0.2904153906673366,
+      "chatterjee_vs_spearman": 0.29810710146573205,
+      "composite_score": 0.3066871170156358
+    },
+    {
+      "feature": "Age_x_Momentum",
+      "pearson": 0.05489044701676517,
+      "pearson_signed": 0.05489044701676517,
+      "spearman": 0.048048375543567313,
+      "spearman_signed": 0.048048375543567313,
+      "chatterjee": 0.4698390362419521,
+      "chatterjee_ties": -2.1749634125344355,
+      "n_valid": 2238,
+      "nonlinear_score": 0.41494858922518696,
+      "chatterjee_vs_spearman": 0.4217906606983848,
+      "composite_score": 0.2188172612648806
+    },
+    {
+      "feature": "Age_div_Explosion",
+      "pearson": 0.15316492147731106,
+      "pearson_signed": 0.15316492147731106,
+      "spearman": 0.1491516915395571,
+      "spearman_signed": 0.1491516915395571,
+      "chatterjee": 0.4934851927356708,
+      "chatterjee_ties": -2.391301259168487,
+      "n_valid": 1842,
+      "nonlinear_score": 0.34032027125835973,
+      "chatterjee_vs_spearman": 0.3443335011961137,
+      "composite_score": 0.2880890609993288
+    },
+    {
+      "feature": "Speed_x_Agility",
+      "pearson": 0.24728919826938434,
+      "pearson_signed": 0.24728919826938434,
+      "spearman": 0.24549533557781006,
+      "spearman_signed": 0.24549533557781006,
+      "chatterjee": 0.4001704543799949,
+      "chatterjee_ties": -0.9019298245614036,
+      "n_valid": 1758,
+      "nonlinear_score": 0.15288125611061054,
+      "chatterjee_vs_spearman": 0.15467511880218482,
+      "composite_score": 0.3079035419061563
+    },
+    {
+      "feature": "Power_x_Speed",
+      "pearson": 0.235046234896008,
+      "pearson_signed": 0.235046234896008,
+      "spearman": 0.23602340565817728,
+      "spearman_signed": 0.23602340565817728,
+      "chatterjee": 0.39504703520982454,
+      "chatterjee_ties": -0.8338395294298566,
+      "n_valid": 2120,
+      "nonlinear_score": 0.16000080031381653,
+      "chatterjee_vs_spearman": 0.15902362955164726,
+      "composite_score": 0.2993397062501854
+    },
+    {
+      "feature": "BMI_x_Speed",
+      "pearson": 0.2769485287299446,
+      "pearson_signed": 0.2769485287299446,
+      "spearman": 0.27393946621602167,
+      "spearman_signed": 0.27393946621602167,
+      "chatterjee": 0.36665393009565383,
+      "chatterjee_ties": -0.7407051418969912,
+      "n_valid": 2636,
+      "nonlinear_score": 0.08970540136570926,
+      "chatterjee_vs_spearman": 0.09271446387963217,
+      "composite_score": 0.31192797052205146
+    },
+    {
+      "feature": "Weight_x_Vertical",
+      "pearson": 0.18694026224674537,
+      "pearson_signed": 0.18694026224674537,
+      "spearman": 0.18044522779689814,
+      "spearman_signed": 0.18044522779689814,
+      "chatterjee": 0.3554107366668764,
+      "chatterjee_ties": -0.9045788770053476,
+      "n_valid": 2227,
+      "nonlinear_score": 0.16847047442013102,
+      "chatterjee_vs_spearman": 0.17496550886997825,
+      "composite_score": 0.2523799416798436
+    },
+    {
+      "feature": "Height_x_Weight",
+      "pearson": 0.07039388776276959,
+      "pearson_signed": 0.07039388776276959,
+      "spearman": 0.07060327353983044,
+      "spearman_signed": 0.07060327353983044,
+      "chatterjee": 0.30690390175278903,
+      "chatterjee_ties": -0.8680840453159697,
+      "n_valid": 2781,
+      "nonlinear_score": 0.23651001399001945,
+      "chatterjee_vs_spearman": 0.2363006282129586,
+      "composite_score": 0.16506070909189563
+    },
+    {
+      "feature": "Age_Year_Diff",
+      "pearson": 0.12778205491331782,
+      "pearson_signed": -0.12778205491331782,
+      "spearman": 0.12434789880865513,
+      "spearman_signed": -0.12434789880865513,
+      "chatterjee": 0.45460348146660934,
+      "chatterjee_ties": -2.2956709628756164,
+      "n_valid": 2346,
+      "nonlinear_score": 0.3268214265532915,
+      "chatterjee_vs_spearman": 0.3302555826579542,
+      "composite_score": 0.25748037870323565
+    },
+    {
+      "feature": "Bench_per_Weight",
+      "pearson": 0.10990368176118566,
+      "pearson_signed": 0.10990368176118566,
+      "spearman": 0.10622595310927281,
+      "spearman_signed": 0.10622595310927281,
+      "chatterjee": 0.33883479565340646,
+      "chatterjee_ties": -0.958695738678607,
+      "n_valid": 2060,
+      "nonlinear_score": 0.22893111389222082,
+      "chatterjee_vs_spearman": 0.23260884254413366,
+      "composite_score": 0.20037280872250013
+    },
+    {
+      "feature": "Jump_Efficiency",
+      "pearson": 0.004862957129888798,
+      "pearson_signed": -0.004862957129888798,
+      "spearman": 0.0027551146383862995,
+      "spearman_signed": -0.0027551146383862995,
+      "chatterjee": 0.3422755299628196,
+      "chatterjee_ties": -0.95504563352767,
+      "n_valid": 2162,
+      "nonlinear_score": 0.3374125728329308,
+      "chatterjee_vs_spearman": 0.33952041532443333,
+      "composite_score": 0.13919563351561037
+    },
+    {
+      "feature": "Sprint_Efficiency",
+      "pearson": 0.2599189817938236,
+      "pearson_signed": 0.2599189817938236,
+      "spearman": 0.2479204046177652,
+      "spearman_signed": 0.2479204046177652,
+      "chatterjee": 0.37348245915122624,
+      "chatterjee_ties": -0.7219374314722258,
+      "n_valid": 2636,
+      "nonlinear_score": 0.11356347735740263,
+      "chatterjee_vs_spearman": 0.12556205453346103,
+      "composite_score": 0.30174479958396716
+    },
+    {
+      "feature": "Height_Pos_Z",
+      "pearson": 0.031166665331197455,
+      "pearson_signed": 0.031166665331197455,
+      "spearman": 0.024868841554859314,
+      "spearman_signed": 0.024868841554859314,
+      "chatterjee": 0.36192009009614734,
+      "chatterjee_ties": -0.7198003312130679,
+      "n_valid": 2781,
+      "nonlinear_score": 0.3307534247649499,
+      "chatterjee_vs_spearman": 0.33705124854128804,
+      "composite_score": 0.16157868810427597
+    },
+    {
+      "feature": "Height_Pos_Diff",
+      "pearson": 0.01881585357796176,
+      "pearson_signed": 0.01881585357796176,
+      "spearman": 0.017767881024878543,
+      "spearman_signed": 0.017767881024878543,
+      "chatterjee": 0.3538294741633006,
+      "chatterjee_ties": -0.7416067597576121,
+      "n_valid": 2781,
+      "nonlinear_score": 0.3350136205853388,
+      "chatterjee_vs_spearman": 0.33606159313842204,
+      "composite_score": 0.1525069100461723
+    },
+    {
+      "feature": "Height_Type_Z",
+      "pearson": 0.04457885282966313,
+      "pearson_signed": 0.04457885282966313,
+      "spearman": 0.03694319002192197,
+      "spearman_signed": 0.03694319002192197,
+      "chatterjee": 0.32254575922295947,
+      "chatterjee_ties": -0.8259249501298507,
+      "n_valid": 2781,
+      "nonlinear_score": 0.27796690639329635,
+      "chatterjee_vs_spearman": 0.2856025692010375,
+      "composite_score": 0.15347491654465933
+    },
+    {
+      "feature": "Weight_Pos_Z",
+      "pearson": 0.06276087811875719,
+      "pearson_signed": 0.06276087811875719,
+      "spearman": 0.047764822332245195,
+      "spearman_signed": 0.047764822332245195,
+      "chatterjee": 0.3435813606483612,
+      "chatterjee_ties": -0.7692282359140352,
+      "n_valid": 2781,
+      "nonlinear_score": 0.280820482529604,
+      "chatterjee_vs_spearman": 0.295816538316116,
+      "composite_score": 0.1705902543946452
+    },
+    {
+      "feature": "Weight_Pos_Diff",
+      "pearson": 0.0543865697289411,
+      "pearson_signed": 0.0543865697289411,
+      "spearman": 0.0437302874124014,
+      "spearman_signed": 0.0437302874124014,
+      "chatterjee": 0.33063637515580635,
+      "chatterjee_ties": -0.8041185215853062,
+      "n_valid": 2781,
+      "nonlinear_score": 0.2762498054268653,
+      "chatterjee_vs_spearman": 0.286906087743405,
+      "composite_score": 0.16168960720472528
+    },
+    {
+      "feature": "Weight_Type_Z",
+      "pearson": 0.06255297398220748,
+      "pearson_signed": 0.06255297398220748,
+      "spearman": 0.05928689211995748,
+      "spearman_signed": 0.05928689211995748,
+      "chatterjee": 0.3079826505438352,
+      "chatterjee_ties": -0.8651765215100304,
+      "n_valid": 2781,
+      "nonlinear_score": 0.24542967656162773,
+      "chatterjee_vs_spearman": 0.24869575842387776,
+      "composite_score": 0.15974502004818358
+    },
+    {
+      "feature": "Sprint_40yd_Pos_Z",
+      "pearson": 0.3049406284401907,
+      "pearson_signed": -0.3049406284401907,
+      "spearman": 0.2963836364341374,
+      "spearman_signed": -0.2963836364341374,
+      "chatterjee": 0.4096773343334451,
+      "chatterjee_ties": -0.6212277091906722,
+      "n_valid": 2635,
+      "nonlinear_score": 0.1047367058932544,
+      "chatterjee_vs_spearman": 0.11329369789930771,
+      "composite_score": 0.34426821319567646
+    },
+    {
+      "feature": "Sprint_40yd_Pos_Diff",
+      "pearson": 0.279853211946386,
+      "pearson_signed": -0.279853211946386,
+      "spearman": 0.28512147068985505,
+      "spearman_signed": -0.28512147068985505,
+      "chatterjee": 0.3916918699660862,
+      "chatterjee_ties": -0.6718902036728513,
+      "n_valid": 2636,
+      "nonlinear_score": 0.11183865801970017,
+      "chatterjee_vs_spearman": 0.10657039927623113,
+      "composite_score": 0.32616915277730685
+    },
+    {
+      "feature": "Sprint_40yd_Type_Z",
+      "pearson": 0.25283774759760225,
+      "pearson_signed": -0.25283774759760225,
+      "spearman": 0.25061865144032364,
+      "spearman_signed": -0.25061865144032364,
+      "chatterjee": 0.3831562086466206,
+      "chatterjee_ties": -0.6953498417038082,
+      "n_valid": 2636,
+      "nonlinear_score": 0.13031846104901834,
+      "chatterjee_vs_spearman": 0.13253755720629695,
+      "composite_score": 0.30429940317002596
+    },
+    {
+      "feature": "Vertical_Jump_Pos_Z",
+      "pearson": 0.17209187653823976,
+      "pearson_signed": 0.17209187653823976,
+      "spearman": 0.17242805588401341,
+      "spearman_signed": 0.17242805588401341,
+      "chatterjee": 0.36320741865662987,
+      "chatterjee_ties": -0.8798525122251137,
+      "n_valid": 2226,
+      "nonlinear_score": 0.1911155421183901,
+      "chatterjee_vs_spearman": 0.19077936277261645,
+      "composite_score": 0.24863894718932789
+    },
+    {
+      "feature": "Vertical_Jump_Pos_Diff",
+      "pearson": 0.1710942449921874,
+      "pearson_signed": 0.1710942449921874,
+      "spearman": 0.17124232395968714,
+      "spearman_signed": 0.17124232395968714,
+      "chatterjee": 0.35271652866966374,
+      "chatterjee_ties": -0.9125394992707827,
+      "n_valid": 2227,
+      "nonlinear_score": 0.18162228367747635,
+      "chatterjee_vs_spearman": 0.1814742047099766,
+      "composite_score": 0.24378758215342783
+    },
+    {
+      "feature": "Vertical_Jump_Type_Z",
+      "pearson": 0.1632700761796637,
+      "pearson_signed": 0.1632700761796637,
+      "spearman": 0.1649402194608329,
+      "spearman_signed": 0.1649402194608329,
+      "chatterjee": 0.35271652866966374,
+      "chatterjee_ties": -0.9125394992707827,
+      "n_valid": 2227,
+      "nonlinear_score": 0.18944645249000006,
+      "chatterjee_vs_spearman": 0.18777630920883084,
+      "composite_score": 0.23954970016001448
+    },
+    {
+      "feature": "Bench_Press_Reps_Pos_Z",
+      "pearson": 0.13255011203722847,
+      "pearson_signed": 0.13255011203722847,
+      "spearman": 0.1345871204201518,
+      "spearman_signed": 0.1345871204201518,
+      "chatterjee": 0.36868917162059844,
+      "chatterjee_ties": -0.8702524288924585,
+      "n_valid": 2060,
+      "nonlinear_score": 0.23613905958336998,
+      "chatterjee_vs_spearman": 0.23410205120044664,
+      "composite_score": 0.22761683838545346
+    },
+    {
+      "feature": "Bench_Press_Reps_Pos_Diff",
+      "pearson": 0.13404396277432706,
+      "pearson_signed": 0.13404396277432706,
+      "spearman": 0.13617780079150543,
+      "spearman_signed": 0.13617780079150543,
+      "chatterjee": 0.3461163507673557,
+      "chatterjee_ties": -0.9371241997063757,
+      "n_valid": 2060,
+      "nonlinear_score": 0.21207238799302863,
+      "chatterjee_vs_spearman": 0.20993854997585026,
+      "composite_score": 0.21951306937669202
+    },
+    {
+      "feature": "Bench_Press_Reps_Type_Z",
+      "pearson": 0.12629030666525326,
+      "pearson_signed": 0.12629030666525326,
+      "spearman": 0.1271498248427086,
+      "spearman_signed": 0.1271498248427086,
+      "chatterjee": 0.35194159485851517,
+      "chatterjee_ties": -0.9198669685285907,
+      "n_valid": 2060,
+      "nonlinear_score": 0.2256512881932619,
+      "chatterjee_vs_spearman": 0.22479177001580658,
+      "composite_score": 0.21680867739579462
+    },
+    {
+      "feature": "Broad_Jump_Pos_Z",
+      "pearson": 0.19613079904733877,
+      "pearson_signed": 0.19613079904733877,
+      "spearman": 0.18991127824289328,
+      "spearman_signed": 0.18991127824289328,
+      "chatterjee": 0.37477259809351204,
+      "chatterjee_ties": -0.8321212429435996,
+      "n_valid": 2200,
+      "nonlinear_score": 0.17864179904617328,
+      "chatterjee_vs_spearman": 0.18486131985061877,
+      "composite_score": 0.2657216624244744
+    },
+    {
+      "feature": "Broad_Jump_Pos_Diff",
+      "pearson": 0.19481445741145745,
+      "pearson_signed": 0.19481445741145745,
+      "spearman": 0.18771613966970485,
+      "spearman_signed": 0.18771613966970485,
+      "chatterjee": 0.3543180484128199,
+      "chatterjee_ties": -0.8920597786996607,
+      "n_valid": 2200,
+      "nonlinear_score": 0.15950359100136244,
+      "chatterjee_vs_spearman": 0.16660190874311503,
+      "composite_score": 0.2564863984894767
+    },
+    {
+      "feature": "Broad_Jump_Type_Z",
+      "pearson": 0.17957146862223483,
+      "pearson_signed": 0.17957146862223483,
+      "spearman": 0.1741321912722024,
+      "spearman_signed": 0.1741321912722024,
+      "chatterjee": 0.37613623473889146,
+      "chatterjee_ties": -0.8281253405598623,
+      "n_valid": 2200,
+      "nonlinear_score": 0.19656476611665663,
+      "chatterjee_vs_spearman": 0.20200404346668907,
+      "composite_score": 0.2565655918638878
+    },
+    {
+      "feature": "Agility_3cone_Pos_Z",
+      "pearson": 0.18893946307102485,
+      "pearson_signed": -0.18893946307102485,
+      "spearman": 0.18625785340181986,
+      "spearman_signed": -0.18625785340181986,
+      "chatterjee": 0.38308438859824967,
+      "chatterjee_ties": -0.9072543617998163,
+      "n_valid": 1809,
+      "nonlinear_score": 0.19414492552722482,
+      "chatterjee_vs_spearman": 0.1968265351964298,
+      "composite_score": 0.2657929503811533
+    },
+    {
+      "feature": "Agility_3cone_Pos_Diff",
+      "pearson": 0.19308023638100222,
+      "pearson_signed": -0.19308023638100222,
+      "spearman": 0.1880916878679579,
+      "spearman_signed": -0.1880916878679579,
+      "chatterjee": 0.371341608429988,
+      "chatterjee_ties": -0.9413162912223714,
+      "n_valid": 1811,
+      "nonlinear_score": 0.17826137204898576,
+      "chatterjee_vs_spearman": 0.18324992056203007,
+      "composite_score": 0.26288822064668327
+    },
+    {
+      "feature": "Agility_3cone_Type_Z",
+      "pearson": 0.1634069711957236,
+      "pearson_signed": -0.1634069711957236,
+      "spearman": 0.16277563033186918,
+      "spearman_signed": -0.16277563033186918,
+      "chatterjee": 0.3618782582577633,
+      "chatterjee_ties": -0.9683638161146813,
+      "n_valid": 1810,
+      "nonlinear_score": 0.19847128706203973,
+      "chatterjee_vs_spearman": 0.19910262792589414,
+      "composite_score": 0.24260608376138318
+    },
+    {
+      "feature": "Shuttle_Pos_Z",
+      "pearson": 0.19605009008326255,
+      "pearson_signed": -0.19605009008326255,
+      "spearman": 0.1891651461986491,
+      "spearman_signed": -0.1891651461986491,
+      "chatterjee": 0.3677020146381432,
+      "chatterjee_ties": -0.9550960829658646,
+      "n_valid": 1867,
+      "nonlinear_score": 0.17165192455488068,
+      "chatterjee_vs_spearman": 0.17853686843949412,
+      "composite_score": 0.2626453767398308
+    },
+    {
+      "feature": "Shuttle_Pos_Diff",
+      "pearson": 0.20067024928746022,
+      "pearson_signed": -0.20067024928746022,
+      "spearman": 0.1911521866846874,
+      "spearman_signed": -0.1911521866846874,
+      "chatterjee": 0.38764027413573954,
+      "chatterjee_ties": -0.8913290857197425,
+      "n_valid": 1869,
+      "nonlinear_score": 0.18697002484827932,
+      "chatterjee_vs_spearman": 0.19648808745105215,
+      "composite_score": 0.2726028404459401
+    },
+    {
+      "feature": "Shuttle_Type_Z",
+      "pearson": 0.17379172721743275,
+      "pearson_signed": -0.17379172721743275,
+      "spearman": 0.16215600506491581,
+      "spearman_signed": -0.16215600506491581,
+      "chatterjee": 0.3841004658936449,
+      "chatterjee_ties": -0.9002270581120224,
+      "n_valid": 1868,
+      "nonlinear_score": 0.21030873867621214,
+      "chatterjee_vs_spearman": 0.22194446082872907,
+      "composite_score": 0.25442450604216255
+    },
+    {
+      "feature": "Momentum_Pos_Z",
+      "pearson": 0.21353746436659543,
+      "pearson_signed": 0.21353746436659543,
+      "spearman": 0.20015136290822153,
+      "spearman_signed": 0.20015136290822153,
+      "chatterjee": 0.35502837010587585,
+      "chatterjee_ties": -0.771312434438796,
+      "n_valid": 2635,
+      "nonlinear_score": 0.14149090573928041,
+      "chatterjee_vs_spearman": 0.15487700719765432,
+      "composite_score": 0.26611799622479543
+    },
+    {
+      "feature": "Momentum_Pos_Diff",
+      "pearson": 0.20162768802051406,
+      "pearson_signed": 0.20162768802051406,
+      "spearman": 0.19677429257721366,
+      "spearman_signed": 0.19677429257721366,
+      "chatterjee": 0.35185878380858016,
+      "chatterjee_ties": -0.7813685144839828,
+      "n_valid": 2636,
+      "nonlinear_score": 0.1502310957880661,
+      "chatterjee_vs_spearman": 0.1550844912313665,
+      "composite_score": 0.2602641077027504
+    },
+    {
+      "feature": "Momentum_Type_Z",
+      "pearson": 0.19212141192367446,
+      "pearson_signed": 0.19212141192367446,
+      "spearman": 0.18401929931394717,
+      "spearman_signed": 0.18401929931394717,
+      "chatterjee": 0.33478746116964897,
+      "chatterjee_ties": -0.8282877905458963,
+      "n_valid": 2636,
+      "nonlinear_score": 0.1426660492459745,
+      "chatterjee_vs_spearman": 0.1507681618557018,
+      "composite_score": 0.24675719783914607
+    },
+    {
+      "feature": "Work_Rate_Vertical_Pos_Z",
+      "pearson": 0.18172651122484224,
+      "pearson_signed": 0.18172651122484224,
+      "spearman": 0.17123705445635196,
+      "spearman_signed": 0.17123705445635196,
+      "chatterjee": 0.34703490865425857,
+      "chatterjee_ties": -0.9275947982498784,
+      "n_valid": 2226,
+      "nonlinear_score": 0.16530839742941633,
+      "chatterjee_vs_spearman": 0.1757978541979066,
+      "composite_score": 0.24470303316606168
+    },
+    {
+      "feature": "Work_Rate_Vertical_Pos_Diff",
+      "pearson": 0.17935507022820443,
+      "pearson_signed": 0.17935507022820443,
+      "spearman": 0.16786648050784642,
+      "spearman_signed": 0.16786648050784642,
+      "chatterjee": 0.3459810086766322,
+      "chatterjee_ties": -0.9324410549343705,
+      "n_valid": 2227,
+      "nonlinear_score": 0.16662593844842774,
+      "chatterjee_vs_spearman": 0.17811452816878576,
+      "composite_score": 0.24255886869146814
+    },
+    {
+      "feature": "Work_Rate_Vertical_Type_Z",
+      "pearson": 0.18626529209895318,
+      "pearson_signed": 0.18626529209895318,
+      "spearman": 0.1736593052858756,
+      "spearman_signed": 0.1736593052858756,
+      "chatterjee": 0.37831150464318375,
+      "chatterjee_ties": -0.8369135877491491,
+      "n_valid": 2227,
+      "nonlinear_score": 0.19204621254423057,
+      "chatterjee_vs_spearman": 0.20465219935730816,
+      "composite_score": 0.2593019810727221
+    },
+    {
+      "feature": "Speed_Score_Pos_Z",
+      "pearson": 0.30920037247443893,
+      "pearson_signed": 0.30920037247443893,
+      "spearman": 0.3090237815067748,
+      "spearman_signed": 0.3090237815067748,
+      "chatterjee": 0.3641365308104707,
+      "chatterjee_ties": -0.7462983135641088,
+      "n_valid": 2635,
+      "nonlinear_score": 0.05493615833603177,
+      "chatterjee_vs_spearman": 0.05511274930369592,
+      "composite_score": 0.33112185851855236
+    },
+    {
+      "feature": "Speed_Score_Pos_Diff",
+      "pearson": 0.3064592789370931,
+      "pearson_signed": 0.3064592789370931,
+      "spearman": 0.307486614201909,
+      "spearman_signed": 0.307486614201909,
+      "chatterjee": 0.39510613449387244,
+      "chatterjee_ties": -0.6625063484604687,
+      "n_valid": 2636,
+      "nonlinear_score": 0.08864685555677931,
+      "chatterjee_vs_spearman": 0.08761952029196346,
+      "composite_score": 0.3422262217392496
+    },
+    {
+      "feature": "Speed_Score_Type_Z",
+      "pearson": 0.29935603207227196,
+      "pearson_signed": 0.29935603207227196,
+      "spearman": 0.3005089927050731,
+      "spearman_signed": 0.3005089927050731,
+      "chatterjee": 0.37348245915122624,
+      "chatterjee_ties": -0.7219374314722258,
+      "n_valid": 2636,
+      "nonlinear_score": 0.07412642707895428,
+      "chatterjee_vs_spearman": 0.07297346644615316,
+      "composite_score": 0.329352491093694
+    },
+    {
+      "feature": "Explosion_Score_Pos_Z",
+      "pearson": 0.1960459853247971,
+      "pearson_signed": 0.1960459853247971,
+      "spearman": 0.1826442637004981,
+      "spearman_signed": 0.1826442637004981,
+      "chatterjee": 0.37598320742111213,
+      "chatterjee_ties": -0.853136160373615,
+      "n_valid": 2161,
+      "nonlinear_score": 0.17993722209631502,
+      "chatterjee_vs_spearman": 0.19333894372061403,
+      "composite_score": 0.26400035767603347
+    },
+    {
+      "feature": "Explosion_Score_Pos_Diff",
+      "pearson": 0.18914683848340327,
+      "pearson_signed": 0.18914683848340327,
+      "spearman": 0.17822347431507932,
+      "spearman_signed": 0.17822347431507932,
+      "chatterjee": 0.38876027626291576,
+      "chatterjee_ties": -0.8168725771496597,
+      "n_valid": 2162,
+      "nonlinear_score": 0.1996134377795125,
+      "chatterjee_vs_spearman": 0.21053680194783644,
+      "composite_score": 0.2657152043447111
+    },
+    {
+      "feature": "Explosion_Score_Type_Z",
+      "pearson": 0.19657909860977305,
+      "pearson_signed": 0.19657909860977305,
+      "spearman": 0.18426447370108603,
+      "spearman_signed": 0.18426447370108603,
+      "chatterjee": 0.3637833976539089,
+      "chatterjee_ties": -0.891114816397546,
+      "n_valid": 2162,
+      "nonlinear_score": 0.16720429904413583,
+      "chatterjee_vs_spearman": 0.17951892395282285,
+      "composite_score": 0.2597664307548213
+    },
+    {
+      "feature": "BMI_Pos_Z",
+      "pearson": 0.03387516390125171,
+      "pearson_signed": 0.03387516390125171,
+      "spearman": 0.035275089852283247,
+      "spearman_signed": 0.035275089852283247,
+      "chatterjee": 0.33818761669313,
+      "chatterjee_ties": -0.7837658549437314,
+      "n_valid": 2781,
+      "nonlinear_score": 0.3043124527918783,
+      "chatterjee_vs_spearman": 0.3029125268408468,
+      "composite_score": 0.1560201228033125
+    },
+    {
+      "feature": "BMI_Pos_Diff",
+      "pearson": 0.03577644436695736,
+      "pearson_signed": 0.03577644436695736,
+      "spearman": 0.033450597104970635,
+      "spearman_signed": 0.033450597104970635,
+      "chatterjee": 0.33387262152894503,
+      "chatterjee_ties": -0.7953959501674883,
+      "n_valid": 2781,
+      "nonlinear_score": 0.29809617716198766,
+      "chatterjee_vs_spearman": 0.3004220244239744,
+      "composite_score": 0.1543171610531564
+    },
+    {
+      "feature": "BMI_Type_Z",
+      "pearson": 0.028231749674812647,
+      "pearson_signed": 0.028231749674812647,
+      "spearman": 0.02829137361188022,
+      "spearman_signed": 0.02829137361188022,
+      "chatterjee": 0.32254575922295947,
+      "chatterjee_ties": -0.8259249501298507,
+      "n_valid": 2781,
+      "nonlinear_score": 0.29431400954814685,
+      "chatterjee_vs_spearman": 0.29425438561107925,
+      "composite_score": 0.14597524067519166
+    },
+    {
+      "feature": "Sprint_40yd_Pos_Rank",
+      "pearson": 0.2984618261370808,
+      "pearson_signed": -0.2984618261370808,
+      "spearman": 0.29757365345379894,
+      "spearman_signed": -0.29757365345379894,
+      "chatterjee": 0.40591797216519554,
+      "chatterjee_ties": -0.6327908069545902,
+      "n_valid": 2636,
+      "nonlinear_score": 0.10745614602811476,
+      "chatterjee_vs_spearman": 0.1083443187113966,
+      "composite_score": 0.3411778327433422
+    },
+    {
+      "feature": "Sprint_40yd_Year_Rank",
+      "pearson": 0.13562510173329664,
+      "pearson_signed": -0.13562510173329664,
+      "spearman": 0.13523626513757042,
+      "spearman_signed": -0.13523626513757042,
+      "chatterjee": 0.32340657941036155,
+      "chatterjee_ties": -0.8595673079205055,
+      "n_valid": 2636,
+      "nonlinear_score": 0.1877814776770649,
+      "chatterjee_vs_spearman": 0.18817031427279113,
+      "composite_score": 0.21062104182540473
+    },
+    {
+      "feature": "Vertical_Jump_Pos_Rank",
+      "pearson": 0.17198862953506708,
+      "pearson_signed": -0.17198862953506708,
+      "spearman": 0.17145117030225876,
+      "spearman_signed": -0.17145117030225876,
+      "chatterjee": 0.34732811267523844,
+      "chatterjee_ties": -0.928460743801653,
+      "n_valid": 2227,
+      "nonlinear_score": 0.17533948314017136,
+      "chatterjee_vs_spearman": 0.17587694237297968,
+      "composite_score": 0.24196318502129313
+    },
+    {
+      "feature": "Vertical_Jump_Year_Rank",
+      "pearson": 0.11193388253619506,
+      "pearson_signed": -0.11193388253619506,
+      "spearman": 0.11195288474222195,
+      "spearman_signed": -0.11195288474222195,
+      "chatterjee": 0.3500223206724511,
+      "chatterjee_ties": -0.9205001215362179,
+      "n_valid": 2227,
+      "nonlinear_score": 0.23808843813625602,
+      "chatterjee_vs_spearman": 0.23806943593022914,
+      "composite_score": 0.20717495845250555
+    },
+    {
+      "feature": "Broad_Jump_Pos_Rank",
+      "pearson": 0.192293715238795,
+      "pearson_signed": -0.192293715238795,
+      "spearman": 0.19256891245510083,
+      "spearman_signed": -0.19256891245510083,
+      "chatterjee": 0.3822725996430991,
+      "chatterjee_ties": -0.810143779833044,
+      "n_valid": 2200,
+      "nonlinear_score": 0.18997888440430413,
+      "chatterjee_vs_spearman": 0.1897036871879983,
+      "composite_score": 0.2683678281654084
+    },
+    {
+      "feature": "Broad_Jump_Year_Rank",
+      "pearson": 0.1173615933177211,
+      "pearson_signed": -0.1173615933177211,
+      "spearman": 0.11788185013444975,
+      "spearman_signed": -0.11788185013444975,
+      "chatterjee": 0.34818168350861234,
+      "chatterjee_ties": -0.910041339426479,
+      "n_valid": 2200,
+      "nonlinear_score": 0.23082009019089123,
+      "chatterjee_vs_spearman": 0.2302998333741626,
+      "composite_score": 0.20984570643909617
+    },
+    {
+      "feature": "Speed_Score_Pos_Rank",
+      "pearson": 0.3084231312003871,
+      "pearson_signed": -0.3084231312003871,
+      "spearman": 0.30790737284045294,
+      "spearman_signed": -0.30790737284045294,
+      "chatterjee": 0.3985203990216587,
+      "chatterjee_ties": -0.6531224932480859,
+      "n_valid": 2636,
+      "nonlinear_score": 0.09009726782127159,
+      "chatterjee_vs_spearman": 0.09061302618120576,
+      "composite_score": 0.34430731082091554
+    },
+    {
+      "feature": "Speed_Score_Year_Rank",
+      "pearson": 0.2977087679829725,
+      "pearson_signed": -0.2977087679829725,
+      "spearman": 0.29733725738842876,
+      "spearman_signed": -0.29733725738842876,
+      "chatterjee": 0.38201812047069184,
+      "chatterjee_ties": -0.6984777934412689,
+      "n_valid": 2636,
+      "nonlinear_score": 0.08430935248771931,
+      "chatterjee_vs_spearman": 0.08468086308226308,
+      "composite_score": 0.3313210557996971
+    },
+    {
+      "feature": "Explosion_Score_Pos_Rank",
+      "pearson": 0.18204209181587122,
+      "pearson_signed": -0.18204209181587122,
+      "spearman": 0.1820723869368212,
+      "spearman_signed": -0.1820723869368212,
+      "chatterjee": 0.338806519044902,
+      "chatterjee_ties": -0.9653570556454321,
+      "n_valid": 2162,
+      "nonlinear_score": 0.15676442722903078,
+      "chatterjee_vs_spearman": 0.1567341321080808,
+      "composite_score": 0.24475695124376853
+    },
+    {
+      "feature": "Explosion_Score_Year_Rank",
+      "pearson": 0.15451245155124071,
+      "pearson_signed": -0.15451245155124071,
+      "spearman": 0.15457143330657147,
+      "spearman_signed": -0.15457143330657147,
+      "chatterjee": 0.32007386008814687,
+      "chatterjee_ties": -1.0210387350813468,
+      "n_valid": 2162,
+      "nonlinear_score": 0.16556140853690615,
+      "chatterjee_vs_spearman": 0.1655024267815754,
+      "composite_score": 0.22075470949260242
+    },
+    {
+      "feature": "School_Count",
+      "pearson": 0.0975669045458495,
+      "pearson_signed": 0.0975669045458495,
+      "spearman": 0.10228052966453367,
+      "spearman_signed": 0.10228052966453367,
+      "chatterjee": 0.30366765537965024,
+      "chatterjee_ties": -0.8768066167337876,
+      "n_valid": 2781,
+      "nonlinear_score": 0.20610075083380075,
+      "chatterjee_vs_spearman": 0.20138712571511658,
+      "composite_score": 0.18142129241497504
+    },
+    {
+      "feature": "School_Year_Count",
+      "pearson": 0.09817053677391628,
+      "pearson_signed": 0.09817053677391628,
+      "spearman": 0.10262543852968302,
+      "spearman_signed": 0.10262543852968302,
+      "chatterjee": 0.3198488872453439,
+      "chatterjee_ties": -0.8331937596446988,
+      "n_valid": 2781,
+      "nonlinear_score": 0.2216783504714276,
+      "chatterjee_vs_spearman": 0.21722344871566085,
+      "composite_score": 0.18817834748921733
+    },
+    {
+      "feature": "Elite_Count",
+      "pearson": 0.18790730211606255,
+      "pearson_signed": 0.18790730211606255,
+      "spearman": 0.19675279241424193,
+      "spearman_signed": 0.19675279241424193,
+      "chatterjee": 0.342502611857315,
+      "chatterjee_ties": -0.7721357597199745,
+      "n_valid": 2781,
+      "nonlinear_score": 0.15459530974125246,
+      "chatterjee_vs_spearman": 0.14574981944307308,
+      "composite_score": 0.25239907310201737
+    },
+    {
+      "feature": "Red_Flag_Count",
+      "pearson": 0.2097019623502072,
+      "pearson_signed": -0.2097019623502072,
+      "spearman": 0.21001608288085383,
+      "spearman_signed": -0.21001608288085383,
+      "chatterjee": 0.35922321811853175,
+      "chatterjee_ties": -0.727069140727916,
+      "n_valid": 2781,
+      "nonlinear_score": 0.14952125576832456,
+      "chatterjee_vs_spearman": 0.14920713523767792,
+      "composite_score": 0.269604700816731
+    },
+    {
+      "feature": "Talent_Diff",
+      "pearson": 0.2553002677531109,
+      "pearson_signed": 0.2553002677531109,
+      "spearman": 0.2568657123659212,
+      "spearman_signed": 0.2568657123659212,
+      "chatterjee": 0.3813375683349798,
+      "chatterjee_ties": -0.6674649027061612,
+      "n_valid": 2781,
+      "nonlinear_score": 0.1260373005818689,
+      "chatterjee_vs_spearman": 0.12447185596905858,
+      "composite_score": 0.3061848213697016
+    },
+    {
+      "feature": "Elite_Score",
+      "pearson": 0.24153616086553995,
+      "pearson_signed": 0.24153616086553995,
+      "spearman": 0.2554493153045949,
+      "spearman_signed": 0.2554493153045949,
+      "chatterjee": 0.3683925828424248,
+      "chatterjee_ties": -0.7023551883774324,
+      "n_valid": 2781,
+      "nonlinear_score": 0.12685642197688488,
+      "chatterjee_vs_spearman": 0.1129432675378299,
+      "composite_score": 0.2964526759880104
+    },
+    {
+      "feature": "School_TE",
+      "pearson": 0.00908206880688958,
+      "pearson_signed": 0.00908206880688958,
+      "spearman": 0.025404874696070757,
+      "spearman_signed": 0.025404874696070757,
+      "chatterjee": 0.33279387273789884,
+      "chatterjee_ties": -0.7983034739734276,
+      "n_valid": 2781,
+      "nonlinear_score": 0.3237118039310093,
+      "chatterjee_vs_spearman": 0.30738899804182807,
+      "composite_score": 0.14346363214604765
+    },
+    {
+      "feature": "Position_TE",
+      "pearson": 0.1443145698822207,
+      "pearson_signed": 0.1443145698822207,
+      "spearman": 0.11242697829817248,
+      "spearman_signed": 0.11242697829817248,
+      "chatterjee": 0.32901825196923695,
+      "chatterjee_ties": -0.808479807294215,
+      "n_valid": 2781,
+      "nonlinear_score": 0.18470368208701626,
+      "chatterjee_vs_spearman": 0.21659127367106445,
+      "composite_score": 0.20862976524181273
+    },
+    {
+      "feature": "Position_Type_TE",
+      "pearson": 0.14942567519391403,
+      "pearson_signed": 0.14942567519391403,
+      "spearman": 0.10886162712525899,
+      "spearman_signed": 0.10886162712525899,
+      "chatterjee": 0.32955762636476005,
+      "chatterjee_ties": -0.8070260453912455,
+      "n_valid": 2781,
+      "nonlinear_score": 0.18013195117084602,
+      "chatterjee_vs_spearman": 0.22069599923950106,
+      "composite_score": 0.2093092412416559
+    }
+  ],
+  "top30_by_chatterjee": [
+    "Age_div_Explosion",
+    "Age_x_Speed",
+    "Age_x_Momentum",
+    "Age",
+    "Age_Year_Diff",
+    "Sprint_40yd_Pos_Z",
+    "Sprint_40yd_Pos_Rank",
+    "Speed_x_Agility",
+    "Speed_Score_Pos_Rank",
+    "Speed_Score_Pos_Diff",
+    "Power_x_Speed",
+    "Agility_Sum",
+    "Sprint_40yd_Pos_Diff",
+    "Explosion_Score_Pos_Diff",
+    "Shuttle_Pos_Diff",
+    "Shuttle_Type_Z",
+    "Sprint_40yd_Type_Z",
+    "Agility_3cone_Pos_Z",
+    "Speed_Score",
+    "Broad_Jump_Pos_Rank",
+    "Speed_Score_Year_Rank",
+    "Talent_Diff",
+    "Work_Rate_Vertical_Type_Z",
+    "Broad_Jump_Type_Z",
+    "Explosion_Score_Pos_Z",
+    "Broad_Jump_Pos_Z",
+    "Sprint_Efficiency",
+    "Speed_Score_Type_Z",
+    "Agility_3cone_Pos_Diff",
+    "Agility_3cone"
+  ],
+  "top30_by_composite": [
+    "Speed_Score_Pos_Rank",
+    "Sprint_40yd_Pos_Z",
+    "Speed_Score_Pos_Diff",
+    "Sprint_40yd_Pos_Rank",
+    "Speed_Score_Year_Rank",
+    "Speed_Score_Pos_Z",
+    "Speed_Score",
+    "Speed_Score_Type_Z",
+    "Sprint_40yd_Pos_Diff",
+    "BMI_x_Speed",
+    "Speed_x_Agility",
+    "Age_x_Speed",
+    "Talent_Diff",
+    "Sprint_40yd_Type_Z",
+    "Sprint_Efficiency",
+    "Power_x_Speed",
+    "Elite_Score",
+    "Age_div_Explosion",
+    "Shuttle_Pos_Diff",
+    "Red_Flag_Count",
+    "Broad_Jump_Pos_Rank",
+    "Age",
+    "Momentum_Pos_Z",
+    "Agility_3cone_Pos_Z",
+    "Broad_Jump_Pos_Z",
+    "Explosion_Score_Pos_Diff",
+    "Explosion_Score_Pos_Z",
+    "Agility_3cone_Pos_Diff",
+    "Shuttle_Pos_Z",
+    "Momentum_Pos_Diff"
+  ],
+  "nonlinear_candidates": [
+    "Year",
+    "Age",
+    "Height",
+    "Weight",
+    "Sprint_40yd",
+    "Vertical_Jump",
+    "Bench_Press_Reps",
+    "Broad_Jump",
+    "Agility_3cone",
+    "Shuttle",
+    "Missing_Count",
+    "BMI",
+    "Speed_Score",
+    "Explosion_Score",
+    "Momentum",
+    "Work_Rate_Vertical",
+    "Agility_Sum",
+    "Power_Sum",
+    "Age_x_Speed",
+    "Age_x_Momentum",
+    "Age_div_Explosion",
+    "Speed_x_Agility",
+    "Power_x_Speed",
+    "BMI_x_Speed",
+    "Weight_x_Vertical",
+    "Height_x_Weight",
+    "Age_Year_Diff",
+    "Bench_per_Weight",
+    "Jump_Efficiency",
+    "Sprint_Efficiency",
+    "Height_Pos_Z",
+    "Height_Pos_Diff",
+    "Height_Type_Z",
+    "Weight_Pos_Z",
+    "Weight_Pos_Diff",
+    "Weight_Type_Z",
+    "Sprint_40yd_Pos_Z",
+    "Sprint_40yd_Pos_Diff",
+    "Sprint_40yd_Type_Z",
+    "Vertical_Jump_Pos_Z",
+    "Vertical_Jump_Pos_Diff",
+    "Vertical_Jump_Type_Z",
+    "Bench_Press_Reps_Pos_Z",
+    "Bench_Press_Reps_Pos_Diff",
+    "Bench_Press_Reps_Type_Z",
+    "Broad_Jump_Pos_Z",
+    "Broad_Jump_Pos_Diff",
+    "Broad_Jump_Type_Z",
+    "Agility_3cone_Pos_Z",
+    "Agility_3cone_Pos_Diff",
+    "Agility_3cone_Type_Z",
+    "Shuttle_Pos_Z",
+    "Shuttle_Pos_Diff",
+    "Shuttle_Type_Z",
+    "Momentum_Pos_Z",
+    "Momentum_Pos_Diff",
+    "Momentum_Type_Z",
+    "Work_Rate_Vertical_Pos_Z",
+    "Work_Rate_Vertical_Pos_Diff",
+    "Work_Rate_Vertical_Type_Z",
+    "Speed_Score_Pos_Z",
+    "Speed_Score_Pos_Diff",
+    "Speed_Score_Type_Z",
+    "Explosion_Score_Pos_Z",
+    "Explosion_Score_Pos_Diff",
+    "Explosion_Score_Type_Z",
+    "BMI_Pos_Z",
+    "BMI_Pos_Diff",
+    "BMI_Type_Z",
+    "Sprint_40yd_Pos_Rank",
+    "Sprint_40yd_Year_Rank",
+    "Vertical_Jump_Pos_Rank",
+    "Vertical_Jump_Year_Rank",
+    "Broad_Jump_Pos_Rank",
+    "Broad_Jump_Year_Rank",
+    "Speed_Score_Pos_Rank",
+    "Speed_Score_Year_Rank",
+    "Explosion_Score_Pos_Rank",
+    "Explosion_Score_Year_Rank",
+    "School_Count",
+    "School_Year_Count",
+    "Elite_Count",
+    "Red_Flag_Count",
+    "Talent_Diff",
+    "Elite_Score",
+    "School_TE",
+    "Position_TE",
+    "Position_Type_TE"
+  ],
+  "feature_feature_chatterjee": {
+    "Speed_Score_Pos_Rank|Sprint_40yd_Pos_Z": [
+      0.5787281239954234,
+      0.5635652832171337
+    ],
+    "Speed_Score_Pos_Rank|Speed_Score_Pos_Diff": [
+      0.9170736972538658,
+      0.922243665714662
+    ],
+    "Speed_Score_Pos_Rank|Sprint_40yd_Pos_Rank": [
+      0.5788400221918559,
+      0.5646633551582033
+    ],
+    "Speed_Score_Pos_Rank|Speed_Score_Year_Rank": [
+      0.4310118234236334,
+      0.469723659583838
+    ],
+    "Speed_Score_Pos_Rank|Speed_Score_Pos_Z": [
+      0.933869914034172,
+      0.9356859291879392
+    ],
+    "Speed_Score_Pos_Rank|Speed_Score": [
+      0.45177826277488864,
+      0.5347406164932118
+    ],
+    "Speed_Score_Pos_Rank|Speed_Score_Type_Z": [
+      0.690187443467974,
+      0.7150477189664812
+    ],
+    "Speed_Score_Pos_Rank|Sprint_40yd_Pos_Diff": [
+      0.5548598653377458,
+      0.5654664067542683
+    ],
+    "Speed_Score_Pos_Rank|BMI_x_Speed": [
+      0.26413403190187223,
+      0.278185491966246
+    ],
+    "Speed_Score_Pos_Rank|Speed_x_Agility": [
+      0.33254199962919373,
+      0.4293835783318444
+    ],
+    "Speed_Score_Pos_Rank|Age_x_Speed": [
+      0.3637686894434281,
+      0.39026658518085633
+    ],
+    "Speed_Score_Pos_Rank|Talent_Diff": [
+      0.26579108137805385,
+      0.17199875656527064
+    ],
+    "Speed_Score_Pos_Rank|Sprint_40yd_Type_Z": [
+      0.3591376262053869,
+      0.38973734600082466
+    ],
+    "Speed_Score_Pos_Rank|Sprint_Efficiency": [
+      0.218072114896823,
+      0.3170313859332129
+    ],
+    "Sprint_40yd_Pos_Z|Speed_Score_Pos_Diff": [
+      0.5699362428750678,
+      0.5876906751100066
+    ],
+    "Sprint_40yd_Pos_Z|Sprint_40yd_Pos_Rank": [
+      0.9806630896540282,
+      0.9801940712268536
+    ],
+    "Sprint_40yd_Pos_Z|Speed_Score_Year_Rank": [
+      0.5209405601778079,
+      0.319651720872033
+    ],
+    "Sprint_40yd_Pos_Z|Speed_Score_Pos_Z": [
+      0.5699539579883928,
+      0.5799314554737107
+    ],
+    "Sprint_40yd_Pos_Z|Speed_Score": [
+      0.5334262584643676,
+      0.3649464571501654
+    ],
+    "Sprint_40yd_Pos_Z|Speed_Score_Type_Z": [
+      0.5565176926453763,
+      0.4938096480827927
+    ],
+    "Sprint_40yd_Pos_Z|Sprint_40yd_Pos_Diff": [
+      0.9603306763543852,
+      0.9538745977373048
+    ],
+    "Sprint_40yd_Pos_Z|BMI_x_Speed": [
+      0.4138133812188689,
+      0.17390192221941858
+    ],
+    "Sprint_40yd_Pos_Z|Speed_x_Agility": [
+      0.5155989377987118,
+      0.3028367323364707
+    ],
+    "Sprint_40yd_Pos_Z|Age_x_Speed": [
+      0.42056261900080094,
+      0.26673445016234465
+    ],
+    "Sprint_40yd_Pos_Z|Talent_Diff": [
+      0.31988439376289746,
+      0.21195096110970923
+    ],
+    "Sprint_40yd_Pos_Z|Sprint_40yd_Type_Z": [
+      0.8462042993283811,
+      0.6375634719548152
+    ],
+    "Sprint_40yd_Pos_Z|Sprint_Efficiency": [
+      0.41656613699918077,
+      0.19550658310894187
+    ],
+    "Speed_Score_Pos_Diff|Sprint_40yd_Pos_Rank": [
+      0.5871900317982528,
+      0.5645802436354923
+    ],
+    "Speed_Score_Pos_Diff|Speed_Score_Year_Rank": [
+      0.4673237873812962,
+      0.47316922585394394
+    ],
+    "Speed_Score_Pos_Diff|Speed_Score_Pos_Z": [
+      0.9561196642942817,
+      0.9558496168350611
+    ],
+    "Speed_Score_Pos_Diff|Speed_Score": [
+      0.4940636785375826,
+      0.5379254068686816
+    ],
+    "Speed_Score_Pos_Diff|Speed_Score_Type_Z": [
+      0.7210298057349109,
+      0.7204991872340701
+    ],
+    "Speed_Score_Pos_Diff|Sprint_40yd_Pos_Diff": [
+      0.5829165884123109,
+      0.5747008524867615
+    ],
+    "Speed_Score_Pos_Diff|BMI_x_Speed": [
+      0.30024976631630307,
+      0.2853453877422377
+    ],
+    "Speed_Score_Pos_Diff|Speed_x_Agility": [
+      0.3810253989321687,
+      0.4302018758394506
+    ],
+    "Speed_Score_Pos_Diff|Age_x_Speed": [
+      0.3924659833012655,
+      0.39446053551830307
+    ],
+    "Speed_Score_Pos_Diff|Talent_Diff": [
+      0.2731256192887812,
+      0.172436765083662
+    ],
+    "Speed_Score_Pos_Diff|Sprint_40yd_Type_Z": [
+      0.379696610560992,
+      0.39728646275200596
+    ],
+    "Speed_Score_Pos_Diff|Sprint_Efficiency": [
+      0.25039753212746074,
+      0.323231289653371
+    ],
+    "Sprint_40yd_Pos_Rank|Speed_Score_Year_Rank": [
+      0.5058631401476147,
+      0.3199113621007139
+    ],
+    "Sprint_40yd_Pos_Rank|Speed_Score_Pos_Z": [
+      0.565570115554388,
+      0.5753529628310998
+    ],
+    "Sprint_40yd_Pos_Rank|Speed_Score": [
+      0.5209248909296186,
+      0.37296522484365324
+    ],
+    "Sprint_40yd_Pos_Rank|Speed_Score_Type_Z": [
+      0.5430809117657853,
+      0.4928085866076035
+    ],
+    "Sprint_40yd_Pos_Rank|Sprint_40yd_Pos_Diff": [
+      0.954972119861927,
+      0.9492462756323492
+    ],
+    "Sprint_40yd_Pos_Rank|BMI_x_Speed": [
+      0.4117621153933334,
+      0.17130601662662204
+    ],
+    "Sprint_40yd_Pos_Rank|Speed_x_Agility": [
+      0.5172297086323754,
+      0.30585414372721087
+    ],
+    "Sprint_40yd_Pos_Rank|Age_x_Speed": [
+      0.4138777708852478,
+      0.27285693949439005
+    ],
+    "Sprint_40yd_Pos_Rank|Talent_Diff": [
+      0.33008011087293,
+      0.19807526665846342
+    ],
+    "Sprint_40yd_Pos_Rank|Sprint_40yd_Type_Z": [
+      0.8402432469189371,
+      0.6286706689722019
+    ],
+    "Sprint_40yd_Pos_Rank|Sprint_Efficiency": [
+      0.4261898439877988,
+      0.1880142390546442
+    ],
+    "Speed_Score_Year_Rank|Speed_Score_Pos_Z": [
+      0.4766419749672487,
+      0.4752377281793011
+    ],
+    "Speed_Score_Year_Rank|Speed_Score": [
+      0.882249321615688,
+      0.8918090895942214
+    ],
+    "Speed_Score_Year_Rank|Speed_Score_Type_Z": [
+      0.6006135141494668,
+      0.6118804143918934
+    ],
+    "Speed_Score_Year_Rank|Sprint_40yd_Pos_Diff": [
+      0.31408276180669337,
+      0.49961919811412403
+    ],
+    "Speed_Score_Year_Rank|BMI_x_Speed": [
+      0.25391153048250015,
+      0.2728108748729041
+    ],
+    "Speed_Score_Year_Rank|Speed_x_Agility": [
+      0.7080046580509765,
+      0.7080454273218181
+    ],
+    "Speed_Score_Year_Rank|Age_x_Speed": [
+      0.6545387642920448,
+      0.6633345598797917
+    ],
+    "Speed_Score_Year_Rank|Talent_Diff": [
+      0.1886692010284241,
+      0.11687055973991489
+    ],
+    "Speed_Score_Year_Rank|Sprint_40yd_Type_Z": [
+      0.3214976048770273,
+      0.4727556111071535
+    ],
+    "Speed_Score_Year_Rank|Sprint_Efficiency": [
+      0.18829703410594667,
+      0.2979025673904925
+    ],
+    "Speed_Score_Pos_Z|Speed_Score": [
+      0.4980984338111517,
+      0.5348909958831805
+    ],
+    "Speed_Score_Pos_Z|Speed_Score_Type_Z": [
+      0.7203336663198537,
+      0.7214540392186685
+    ],
+    "Speed_Score_Pos_Z|Sprint_40yd_Pos_Diff": [
+      0.5609127690536846,
+      0.5641900650187867
+    ],
+    "Speed_Score_Pos_Z|BMI_x_Speed": [
+      0.2850512960549739,
+      0.28474841082471203
+    ],
+    "Speed_Score_Pos_Z|Speed_x_Agility": [
+      0.38062450110222634,
+      0.43327801439414115
+    ],
+    "Speed_Score_Pos_Z|Age_x_Speed": [
+      0.41202153884521864,
+      0.39252399200026855
+    ],
+    "Speed_Score_Pos_Z|Talent_Diff": [
+      0.27361208568238615,
+      0.18263849762012574
+    ],
+    "Speed_Score_Pos_Z|Sprint_40yd_Type_Z": [
+      0.3765986809585864,
+      0.397182778490223
+    ],
+    "Speed_Score_Pos_Z|Sprint_Efficiency": [
+      0.2355379863878797,
+      0.32382492628784554
+    ],
+    "Speed_Score|Speed_Score_Type_Z": [
+      0.6862900527380389,
+      0.663885344955994
+    ],
+    "Speed_Score|Sprint_40yd_Pos_Diff": [
+      0.36656801220983826,
+      0.518846023491418
+    ],
+    "Speed_Score|BMI_x_Speed": [
+      0.31539549211735773,
+      0.28467920031603966
+    ],
+    "Speed_Score|Speed_x_Agility": [
+      0.7388019593840993,
+      0.731303325640021
+    ],
+    "Speed_Score|Age_x_Speed": [
+      0.6866235026133825,
+      0.6983344590540791
+    ],
+    "Speed_Score|Talent_Diff": [
+      0.21198057996731667,
+      0.11881623286769294
+    ],
+    "Speed_Score|Sprint_40yd_Type_Z": [
+      0.3794971429064855,
+      0.48456996802904806
+    ],
+    "Speed_Score|Sprint_Efficiency": [
+      0.28792162907219476,
+      0.3239164739990459
+    ],
+    "Speed_Score_Type_Z|Sprint_40yd_Pos_Diff": [
+      0.4827924608134567,
+      0.5558977879382514
+    ],
+    "Speed_Score_Type_Z|BMI_x_Speed": [
+      0.3370796122037938,
+      0.32330857257578804
+    ],
+    "Speed_Score_Type_Z|Speed_x_Agility": [
+      0.492704080130384,
+      0.5177150570947753
+    ],
+    "Speed_Score_Type_Z|Age_x_Speed": [
+      0.5027952680995631,
+      0.47579274466157795
+    ],
+    "Speed_Score_Type_Z|Talent_Diff": [
+      0.26024225389814626,
+      0.1513540701979349
+    ],
+    "Speed_Score_Type_Z|Sprint_40yd_Type_Z": [
+      0.5230072123531786,
+      0.47534998586024746
+    ],
+    "Speed_Score_Type_Z|Sprint_Efficiency": [
+      0.28966416468602196,
+      0.3474135046510072
+    ],
+    "Sprint_40yd_Pos_Diff|BMI_x_Speed": [
+      0.41810449600956756,
+      0.18499675109502134
+    ],
+    "Sprint_40yd_Pos_Diff|Speed_x_Agility": [
+      0.49952419672402726,
+      0.2968310304627345
+    ],
+    "Sprint_40yd_Pos_Diff|Age_x_Speed": [
+      0.4161813888512318,
+      0.267761547389183
+    ],
+    "Sprint_40yd_Pos_Diff|Talent_Diff": [
+      0.32302275528729607,
+      0.1921970153249013
+    ],
+    "Sprint_40yd_Pos_Diff|Sprint_40yd_Type_Z": [
+      0.8512308060954207,
+      0.6220519695272142
+    ],
+    "Sprint_40yd_Pos_Diff|Sprint_Efficiency": [
+      0.4271923632383703,
+      0.19555990182046612
+    ],
+    "BMI_x_Speed|Speed_x_Agility": [
+      0.14082256210276256,
+      0.11313925650439738
+    ],
+    "BMI_x_Speed|Age_x_Speed": [
+      0.2115792640841042,
+      0.206054414339373
+    ],
+    "BMI_x_Speed|Talent_Diff": [
+      0.16562140434727235,
+      0.06435422346853525
+    ],
+    "BMI_x_Speed|Sprint_40yd_Type_Z": [
+      0.11505333169269027,
+      0.31443916992096854
+    ],
+    "BMI_x_Speed|Sprint_Efficiency": [
+      0.6822648645498054,
+      0.6872580321350164
+    ],
+    "Speed_x_Agility|Age_x_Speed": [
+      0.5849790393454215,
+      0.6061728059303695
+    ],
+    "Speed_x_Agility|Talent_Diff": [
+      0.20202451786292663,
+      0.11621248296831355
+    ],
+    "Speed_x_Agility|Sprint_40yd_Type_Z": [
+      0.32275106509720075,
+      0.5413292011843797
+    ],
+    "Speed_x_Agility|Sprint_Efficiency": [
+      0.06873957916405526,
+      0.17975430366570755
+    ],
+    "Age_x_Speed|Talent_Diff": [
+      0.18233062328459027,
+      0.09184563563424264
+    ],
+    "Age_x_Speed|Sprint_40yd_Type_Z": [
+      0.258882495717902,
+      0.39866227239593643
+    ],
+    "Age_x_Speed|Sprint_Efficiency": [
+      0.15382290173206592,
+      0.2191998910682993
+    ],
+    "Talent_Diff|Sprint_40yd_Type_Z": [
+      0.1387032011968059,
+      0.24295851115961087
+    ],
+    "Talent_Diff|Sprint_Efficiency": [
+      0.04888425479186498,
+      0.12607456722642818
+    ],
+    "Sprint_40yd_Type_Z|Sprint_Efficiency": [
+      0.353739478836784,
+      0.15719497531479842
+    ]
+  }
+}

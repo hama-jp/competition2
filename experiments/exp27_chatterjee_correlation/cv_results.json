@@ -1,0 +1,22 @@
+{
+  "exp13_top30_importance": {
+    "cv_auc": 0.8472240653217145,
+    "n_features": 30
+  },
+  "top30_chatterjee": {
+    "cv_auc": 0.8376683033390158,
+    "n_features": 34
+  },
+  "top30_composite": {
+    "cv_auc": 0.8391025182977246,
+    "n_features": 34
+  },
+  "top30_hybrid_imp20_chat10": {
+    "cv_auc": 0.8451314385136338,
+    "n_features": 33
+  },
+  "top30_mixed_linear_nonlinear": {
+    "cv_auc": 0.8410834249212005,
+    "n_features": 34
+  }
+}
