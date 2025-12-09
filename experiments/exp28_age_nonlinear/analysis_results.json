@@ -1,0 +1,227 @@
+{
+  "optimal_age": 20,
+  "age_stats": {
+    "count": {
+      "18.0": 1,
+      "20.0": 112,
+      "21.0": 585,
+      "22.0": 968,
+      "23.0": 580,
+      "24.0": 83,
+      "25.0": 10,
+      "26.0": 6,
+      "28.0": 1
+    },
+    "drafted": {
+      "18.0": 0.0,
+      "20.0": 104.0,
+      "21.0": 484.0,
+      "22.0": 738.0,
+      "23.0": 399.0,
+      "24.0": 57.0,
+      "25.0": 8.0,
+      "26.0": 4.0,
+      "28.0": 1.0
+    },
+    "draft_rate": {
+      "18.0": 0.0,
+      "20.0": 0.929,
+      "21.0": 0.827,
+      "22.0": 0.762,
+      "23.0": 0.688,
+      "24.0": 0.687,
+      "25.0": 0.8,
+      "26.0": 0.667,
+      "28.0": 1.0
+    },
+    "pct_of_total": {
+      "18.0": 0.0,
+      "20.0": 4.0,
+      "21.0": 21.0,
+      "22.0": 34.8,
+      "23.0": 20.9,
+      "24.0": 3.0,
+      "25.0": 0.4,
+      "26.0": 0.2,
+      "28.0": 0.0
+    }
+  },
+  "transformation_correlations": [
+    {
+      "name": "Age_gaussian",
+      "pearson": 0.14334568766137837,
+      "spearman": 0.14215743215018234,
+      "chatterjee": 0.4597185719100644,
+      "pearson_signed": 0.14334568766137837
+    },
+    {
+      "name": "Age_bin_5",
+      "pearson": 0.1402108147783517,
+      "spearman": 0.14080882582680537,
+      "chatterjee": 0.4648336623535194,
+      "pearson_signed": -0.1402108147783517
+    },
+    {
+      "name": "Age_dist_optimal",
+      "pearson": 0.13674699483661795,
+      "spearman": 0.14215743215018234,
+      "chatterjee": 0.456521640382905,
+      "pearson_signed": -0.13674699483661795
+    },
+    {
+      "name": "Age_inverse",
+      "pearson": 0.13516871299621155,
+      "spearman": 0.14064158025729895,
+      "chatterjee": 0.4571610266883369,
+      "pearson_signed": 0.13516871299621155
+    },
+    {
+      "name": "Age_minus_20",
+      "pearson": 0.13502164072900635,
+      "spearman": 0.14072324008903705,
+      "chatterjee": 0.4603579582154963,
+      "pearson_signed": -0.13502164072900635
+    },
+    {
+      "name": "Age_log",
+      "pearson": 0.13427491472516098,
+      "spearman": 0.14064158025729895,
+      "chatterjee": 0.4609973445209281,
+      "pearson_signed": -0.13427491472516098
+    },
+    {
+      "name": "Age_bin_4",
+      "pearson": 0.13296677502868137,
+      "spearman": 0.13681324540616957,
+      "chatterjee": 0.4526853225503138,
+      "pearson_signed": -0.13296677502868137
+    },
+    {
+      "name": "Age_squared",
+      "pearson": 0.1314942509989508,
+      "spearman": 0.14064158025729895,
+      "chatterjee": 0.4609973445209281,
+      "pearson_signed": -0.1314942509989508
+    },
+    {
+      "name": "Age_cubed",
+      "pearson": 0.12957243266051027,
+      "spearman": 0.14064158025729895,
+      "chatterjee": 0.4609973445209281,
+      "pearson_signed": -0.12957243266051027
+    },
+    {
+      "name": "Age_young_penalty",
+      "pearson": 0.12298670677977819,
+      "spearman": 0.12325024520722355,
+      "chatterjee": 0.46227611713179184,
+      "pearson_signed": 0.12298670677977819
+    },
+    {
+      "name": "Age_near_optimal",
+      "pearson": 0.120365937832453,
+      "spearman": 0.12036593783245315,
+      "chatterjee": 0.4750638432404294,
+      "pearson_signed": 0.120365937832453
+    },
+    {
+      "name": "Age_young",
+      "pearson": 0.11863330376724887,
+      "spearman": 0.11863330376724886,
+      "chatterjee": 0.4641942760480875,
+      "pearson_signed": 0.11863330376724887
+    },
+    {
+      "name": "Age_bin_3",
+      "pearson": 0.11587456537024884,
+      "spearman": 0.11817984196907086,
+      "chatterjee": 0.47698200215672504,
+      "pearson_signed": -0.11587456537024884
+    },
+    {
+      "name": "Age_dist_optimal_sq",
+      "pearson": 0.10979869880667181,
+      "spearman": 0.14215743215018234,
+      "chatterjee": 0.456521640382905,
+      "pearson_signed": -0.10979869880667181
+    },
+    {
+      "name": "Age_is_optimal",
+      "pearson": 0.08632644816043603,
+      "spearman": 0.08632644816043594,
+      "chatterjee": 0.4712275254078382,
+      "pearson_signed": 0.08632644816043603
+    },
+    {
+      "name": "Age_prime",
+      "pearson": 0.03859103136722815,
+      "spearman": 0.038591031367228155,
+      "chatterjee": 0.4654730486589512,
+      "pearson_signed": -0.03859103136722815
+    },
+    {
+      "name": "Age_old",
+      "pearson": 0.03241980903749781,
+      "spearman": 0.032419809037497804,
+      "chatterjee": 0.47314568432413384,
+      "pearson_signed": -0.03241980903749781
+    },
+    {
+      "name": "Age_old_penalty",
+      "pearson": 0.022331126406028103,
+      "spearman": 0.03219055977684136,
+      "chatterjee": 0.46291550343722376,
+      "pearson_signed": -0.022331126406028103
+    },
+    {
+      "name": "Age_dist_mean",
+      "pearson": 0.017829977142760408,
+      "spearman": 0.022768990523995985,
+      "chatterjee": 0.46675182126981507,
+      "pearson_signed": 0.017829977142760408
+    },
+    {
+      "name": "Age_dist_mean_sq",
+      "pearson": 0.017348852770406025,
+      "spearman": 0.022768990523995985,
+      "chatterjee": 0.46675182126981507,
+      "pearson_signed": 0.017348852770406025
+    }
+  ],
+  "cv_results": {
+    "baseline": 0.8363282282312936,
+    "replace_age_with_Age_dist_optimal": 0.8329811595534369,
+    "replace_age_with_Age_dist_optimal_sq": 0.8329811595534369,
+    "replace_age_with_Age_squared": 0.8337768114265364,
+    "replace_age_with_Age_prime": 0.7947615142678586,
+    "replace_age_with_Age_young": 0.7482286396111003,
+    "replace_age_with_Age_old": 0.7218859274533356,
+    "replace_age_with_Age_young_penalty": 0.8348106484647833,
+    "replace_age_with_Age_old_penalty": 0.8246968526665963,
+    "replace_age_with_Age_gaussian": 0.8339565845154691,
+    "baseline_plus_Age_dist_optimal": 0.8355518580144204,
+    "baseline_plus_Age_dist_optimal_sq": 0.8355518580144204,
+    "baseline_plus_Age_squared": 0.8341494010777312,
+    "baseline_plus_Age_prime": 0.8352972267307271,
+    "baseline_plus_Age_young": 0.8351509129864222,
+    "baseline_plus_Age_old": 0.8363191545107167,
+    "baseline_plus_Age_young_penalty": 0.8356692492743859,
+    "baseline_plus_Age_old_penalty": 0.8378730291595353,
+    "baseline_plus_Age_gaussian": 0.8356425952201909,
+    "baseline_plus_best_combo": 0.8369667913169031,
+    "baseline_plus_all_new": 0.8365176421483396
+  },
+  "best_config": "baseline_plus_Age_old_penalty",
+  "best_cv": 0.8378730291595353,
+  "new_age_features": [
+    "Age_dist_optimal",
+    "Age_dist_optimal_sq",
+    "Age_squared",
+    "Age_prime",
+    "Age_young",
+    "Age_old",
+    "Age_young_penalty",
+    "Age_old_penalty",
+    "Age_gaussian"
+  ]
+}
