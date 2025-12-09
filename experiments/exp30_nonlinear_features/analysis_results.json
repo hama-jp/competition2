@@ -1,0 +1,67 @@
+{
+  "new_features": {
+    "Age": [
+      "Age_old_penalty"
+    ],
+    "Height": [
+      "Height_dist_mean",
+      "Height_dist_mean_sq",
+      "Height_tall",
+      "Height_short"
+    ],
+    "Agility": [
+      "Agility_fast",
+      "Agility_slow",
+      "Agility_penalty",
+      "Agility_Sum_fast",
+      "Agility_Sum_penalty"
+    ],
+    "BMI": [
+      "BMI_dist_optimal",
+      "BMI_dist_optimal_sq",
+      "BMI_high",
+      "BMI_low"
+    ],
+    "JumpEff": [
+      "JumpEff_high",
+      "JumpEff_bonus"
+    ],
+    "Combined": [
+      "Young_Fast",
+      "Old_Slow"
+    ]
+  },
+  "cv_results": {
+    "baseline": 0.8363282282312936,
+    "baseline_plus_Age": 0.8378730291595353,
+    "baseline_plus_Height": 0.8342344672081409,
+    "baseline_plus_Agility": 0.8368494000569375,
+    "baseline_plus_BMI": 0.835817831448835,
+    "baseline_plus_JumpEff": 0.8364683037927019,
+    "baseline_plus_Combined": 0.835522368422545,
+    "baseline_plus_all_new": 0.836383237662292,
+    "baseline_plus_best_combo": 0.835870572449689
+  },
+  "best_config": "baseline_plus_Age",
+  "best_cv": 0.8378730291595353,
+  "all_new_features": [
+    "Height_short",
+    "Age_old_penalty",
+    "BMI_high",
+    "Height_tall",
+    "Height_dist_mean_sq",
+    "Agility_penalty",
+    "BMI_dist_optimal_sq",
+    "Agility_Sum_fast",
+    "Agility_fast",
+    "JumpEff_high",
+    "Agility_slow",
+    "JumpEff_bonus",
+    "Young_Fast",
+    "Height_dist_mean",
+    "BMI_low",
+    "Old_Slow",
+    "BMI_dist_optimal",
+    "Agility_Sum_penalty"
+  ]
+}
