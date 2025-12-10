@@ -1,0 +1,23 @@
+{
+  "n_features": 31,
+  "model": "CatBoost tuned",
+  "n_trials": 50,
+  "best_params": {
+    "learning_rate": 0.0806817268704256,
+    "depth": 3,
+    "l2_leaf_reg": 1.0930907772710212,
+    "min_data_in_leaf": 82,
+    "random_strength": 1.1308911791898697,
+    "bagging_temperature": 0.016824602509514452,
+    "border_count": 110,
+    "iterations": 10000,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "verbose": false,
+    "allow_writing_files": false
+  },
+  "tuning_cv": 0.8461609277274377,
+  "final_cv": 0.853074346663763,
+  "exp33_cv": 0.85083,
+  "exp33_lb": 0.8513
+}
