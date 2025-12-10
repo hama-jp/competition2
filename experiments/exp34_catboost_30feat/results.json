@@ -1,0 +1,7 @@
+{
+  "n_features": 30,
+  "model": "CatBoost only",
+  "cv_catboost": 0.8510112094475578,
+  "exp33_cv": 0.85083,
+  "exp33_lb": 0.8513
+}
