@@ -1,0 +1,57 @@
+{
+  "best_config": "original_only",
+  "n_features": 31,
+  "cv_final": 0.8508331376812335,
+  "cv_std": 0.0024917658403088836,
+  "new_year_features": [
+    "Height_Year_Pct",
+    "Weight_Year_Pct",
+    "Speed_Score_Year_Pct",
+    "BMI_Year_Pct",
+    "Age_Year_Pct",
+    "Speed_Score_Year_Z",
+    "Explosion_Score_Year_Z",
+    "BMI_Year_Z",
+    "Momentum_Year_Z",
+    "Year_Player_Count",
+    "Year_Position_Count",
+    "Year_Position_Ratio",
+    "Year_Speed_Trend",
+    "Speed_vs_Year",
+    "Explosion_vs_Year"
+  ],
+  "all_results": {
+    "original_only": {
+      "n_features": 31,
+      "cv_mean": 0.8401295500455387,
+      "cv_std": 0.0024917658403088836
+    },
+    "with_year_pct": {
+      "n_features": 36,
+      "cv_mean": 0.8425573374074339,
+      "cv_std": 0.0028368042400778648
+    },
+    "with_year_zscore": {
+      "n_features": 35,
+      "cv_mean": 0.8366976042731175,
+      "cv_std": 0.008944461892232053
+    },
+    "with_year_competition": {
+      "n_features": 34,
+      "cv_mean": 0.8409100790510098,
+      "cv_std": 0.0036075947119920725
+    },
+    "with_year_relative": {
+      "n_features": 33,
+      "cv_mean": 0.8424437268643755,
+      "cv_std": 0.0031072379044008165
+    },
+    "all_year_features": {
+      "n_features": 46,
+      "cv_mean": 0.8338462820997042,
+      "cv_std": 0.00900272384214849
+    }
+  },
+  "exp33_cv": 0.85083,
+  "exp33_lb": 0.8513
+}
