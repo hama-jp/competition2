@@ -1,0 +1,9 @@
+{
+  "n_features": 31,
+  "model": "CatBoost only with pseudo-labels",
+  "pseudo_threshold": 100,
+  "cv_stage1": 0.8508331376812335,
+  "cv_stage2": 0.8523524187703522,
+  "exp33_cv": 0.85083,
+  "exp33_lb": 0.8513
+}

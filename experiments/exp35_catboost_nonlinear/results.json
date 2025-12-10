@@ -1,0 +1,12 @@
+{
+  "n_features": 33,
+  "model": "CatBoost only",
+  "features_added": [
+    "Agility_3cone_Pos_Diff",
+    "Age_old_penalty",
+    "Agility_penalty"
+  ],
+  "cv_catboost": 0.849577561596385,
+  "exp33_cv": 0.85083,
+  "exp33_lb": 0.8513
+}
