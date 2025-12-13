@@ -1,0 +1,15 @@
+{
+  "model": "Exp50 Pseudo Labeling",
+  "cv_final": 0.8483690554370301,
+  "cv_individual": {
+    "cat": 0.847454878088893,
+    "lgb": 0.8448064858954685,
+    "xgb": 0.84516801694971
+  },
+  "weights": [
+    0.4,
+    0.3,
+    0.3
+  ],
+  "pseudo_count_pos": 46
+}

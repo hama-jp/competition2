@@ -1,0 +1,27 @@
+{
+  "model": "Exp48 Clustering/PCA",
+  "cv_final": 0.8484467491694709,
+  "cv_individual": {
+    "cat": 0.8473318157535668,
+    "lgb": 0.8449448601342684,
+    "xgb": 0.8440800211417689
+  },
+  "weights": [
+    0.4,
+    0.3,
+    0.3
+  ],
+  "new_features": [
+    "Cluster_3",
+    "Cluster_6",
+    "Cluster_12",
+    "Cluster_50",
+    "PCA_2_0",
+    "PCA_2_1",
+    "PCA_5_0",
+    "PCA_5_1",
+    "PCA_5_2",
+    "PCA_5_3",
+    "PCA_5_4"
+  ]
+}

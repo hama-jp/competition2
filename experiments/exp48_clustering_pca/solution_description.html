@@ -1,0 +1,129 @@
+
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Solution Description</title>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+                font-size: 16px;
+                line-height: 1.5;
+                word-wrap: break-word;
+                color: #24292e;
+                margin: 0 auto;
+                padding: 45px;
+                max-width: 980px;
+                border: 1px solid #ddd;
+                background-color: #fff;
+            }
+            h1, h2, h3 {
+                margin-top: 24px;
+                margin-bottom: 16px;
+                font-weight: 600;
+                line-height: 1.25;
+            }
+            h1 { font-size: 2em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+            h2 { font-size: 1.5em; border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; }
+            h3 { font-size: 1.25em; }
+            code {
+                padding: 0.2em 0.4em;
+                margin: 0;
+                font-size: 85%;
+                background-color: #f6f8fa;
+                border-radius: 6px;
+                font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            }
+            pre {
+                padding: 16px;
+                overflow: auto;
+                font-size: 85%;
+                line-height: 1.45;
+                background-color: #f6f8fa;
+                border-radius: 6px;
+            }
+            table {
+                border-spacing: 0;
+                border-collapse: collapse;
+                margin-bottom: 16px;
+                width: 100%;
+            }
+            table th, table td {
+                padding: 6px 13px;
+                border: 1px solid #dfe2e5;
+            }
+            table th {
+                font-weight: 600;
+                background-color: #f6f8fa;
+            }
+            table tr:nth-child(2n) {
+                background-color: #f6f8fa;
+            }
+            ul { padding-left: 2em; }
+        </style>
+    </head>
+    <body>
+        <h1>解法説明書 (Solution Description)</h1>
+<p>Hitoshi_Takahama</p>
+<h2>1. 概要 (Overview)</h2>
+<p>本ソリューションでは、データの質を高める<strong>特徴量エンジニアリング</strong>と、堅牢な<strong>検証戦略 (Validation Strategy)</strong> に重点を置きました。
+特に、以下の2点がスコア向上の鍵となりました。
+1.  <strong>Leak-Free Pipeline</strong>: Cross-Validation (CV) ループ内でTarget Encodingを行うことで、学習データへのリークを完全に防ぎ、信頼できるCVスコアを確立しました。
+2.  <strong>Unsupervised Features</strong>: 身体能力データに対する教師なし学習（K-Meansクラスタリング、PCA）を行い、選手の「アーキタイプ（典型的なタイプ）」を特徴量として追加しました。</p>
+<h2>2. 特徴量エンジニアリング (Feature Engineering)</h2>
+<h3>2.1 基本特徴量</h3>
+<ul>
+<li><code>exp33</code> で有効性が確認された31個の精選された特徴量を使用。</li>
+<li>身体能力の比率（BMI, Momentum, Speed_Score等）や、ポジションごとの偏差値（Z-Score, Diff）を含みます。</li>
+</ul>
+<h3>2.2 Target Encoding (Leak-Free)</h3>
+<ul>
+<li>カテゴリ変数 (<code>School</code>, <code>Position</code>, <code>Position_Type</code>) に対してTarget Encodingを適用。</li>
+<li><strong>重要</strong>: 「学習前の一括変換」ではなく、<strong>CVのFoldごとに</strong>変換を行うことでリークを排除しました。<ul>
+<li>Trainデータ: Out-of-Fold (OOF) で計算。</li>
+<li>Valid/Testデータ: Trainデータの統計量を使用。</li>
+</ul>
+</li>
+</ul>
+<h3>2.3 教師なし学習特徴量 (Unsupervised Features)</h3>
+<p>選手の身体的特徴（身長、体重、40yd走、垂直跳び等 8項目）を入力とし、以下の特徴量を生成しました。これらは、単独の数値だけでは見えない「選手のタイプ」をモデルに提供します。
+- <strong>K-Means Clustering</strong>: 
+    - <code>k=[3, 6, 12, 50]</code> の4パターンでクラスタリングを行い、所属クラスタIDを特徴量化。
+    - 例えば、「大型パワー型」「小型スピード型」のような分類を自動学習。
+- <strong>PCA (主成分分析)</strong>:
+    - 身体データの分散を説明する主成分 (<code>n_components=[2, 5]</code>) を抽出。</p>
+<p>※ これらもCVループ内で学習・変換を行いました（厳密なLeak-Free）。</p>
+<h2>3. モデル構成 (Modeling)</h2>
+<p>以下の3つの強力な勾配ブースティング決定木 (GBDT) モデルのアンサンブルを採用しました。</p>
+<ol>
+<li><strong>CatBoost Classifier</strong>:<ul>
+<li>カテゴリ変数の扱いに長けており、今回の最重要モデル。</li>
+<li><code>Depth=3</code> と浅めの木を採用し、過学習を抑制。</li>
+</ul>
+</li>
+<li><strong>LightGBM Classifier</strong>:<ul>
+<li>高速かつ高精度。<code>num_leaves=126</code>, <code>Depth=3</code>。</li>
+</ul>
+</li>
+<li><strong>XGBoost Classifier</strong>:<ul>
+<li><code>Depth=5</code>。他の2つとは異なる特性を持ち、アンサンブルの多様性に貢献。</li>
+</ul>
+</li>
+</ol>
+<p><strong>アンサンブル手法</strong>:
+- 3つのモデルの予測確率を加重平均。
+- 重み: <code>CatBoost (0.4) + LightGBM (0.3) + XGBoost (0.3)</code></p>
+<h2>4. 検証 (Validation)</h2>
+<ul>
+<li><strong>手法</strong>: Stratified K-Fold (5分割) × 5 Seeds (計25モデルの平均)</li>
+<li><strong>評価指標</strong>: ROC AUC</li>
+<li><strong>結果</strong>:<ul>
+<li>CV Score: <strong>0.84845</strong></li>
+<li>Public LB: <strong>0.85144</strong></li>
+<li>CVとLBが非常に高く相関しており、信頼性の高いモデルとなっていると思われます。</li>
+</ul>
+</li>
+</ul>
+    </body>
+    </html>
+    

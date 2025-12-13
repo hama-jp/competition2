@@ -1,0 +1,53 @@
+{
+  "model": "Re-optimized Ensemble",
+  "cv_final": 0.8521885246924292,
+  "weights": [
+    0.4,
+    0.3,
+    0.3
+  ],
+  "params_cat": {
+    "learning_rate": 0.042416485432965945,
+    "depth": 3,
+    "l2_leaf_reg": 0.09319712200171228,
+    "subsample": 0.7549829735745864,
+    "min_data_in_leaf": 17,
+    "random_strength": 1.8796757820025674,
+    "loss_function": "Logloss",
+    "eval_metric": "AUC",
+    "verbose": false,
+    "allow_writing_files": false,
+    "iterations": 10000,
+    "task_type": "CPU"
+  },
+  "params_lgb": {
+    "learning_rate": 0.08480189004395183,
+    "num_leaves": 126,
+    "max_depth": 3,
+    "min_child_samples": 35,
+    "subsample": 0.7809722220194688,
+    "colsample_bytree": 0.7086994358713794,
+    "reg_alpha": 0.059564041287579535,
+    "reg_lambda": 0.011062670887356763,
+    "objective": "binary",
+    "metric": "auc",
+    "boosting_type": "gbdt",
+    "verbosity": -1,
+    "n_estimators": 10000
+  },
+  "params_xgb": {
+    "learning_rate": 0.04498719240007802,
+    "max_depth": 5,
+    "min_child_weight": 11,
+    "subsample": 0.5096969812273043,
+    "colsample_bytree": 0.7386532663298737,
+    "gamma": 0.03962275519320668,
+    "alpha": 0.0003260696374147742,
+    "lambda": 0.00045918591375374273,
+    "objective": "binary:logistic",
+    "eval_metric": "auc",
+    "tree_method": "hist",
+    "n_estimators": 10000,
+    "n_jobs": -1
+  }
+}
